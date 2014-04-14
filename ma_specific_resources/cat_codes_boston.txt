@@ -1,0 +1,5 @@
+42.385139, -71.066112 : Dewey Beach
+42.3760913, -71.06001069999999 : Monument and First High School
+42.376394, -71.060756 : Bunker Hill Monument
+42.375086, -71.0698335 : Prison and Prison Yard
+42.374415, -71.053308 : Navy Yard

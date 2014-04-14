@@ -5,12 +5,12 @@
 # Maintains a cache of previously-geocoded locations and throttles traffic to the Geocoder.
 
 import base64
-import os
 import re
 import sys
 import time
 import json
 import urllib
+from coders.locatable import GetAverageLatLon
 
 GeocodeUrlTemplate = 'https://maps.googleapis.com/maps/api/geocode/json?sensor=false&address=%s'
 CacheDir = "geocache"
@@ -73,6 +73,14 @@ class Geocoder:
     m = re.match(r'@([-0-9.]+),([-0-9.]+)$', address)
     if m:
       return FakeResponse % (m.group(1), m.group(2))
+
+  # Returns a lat lon which is the average between two intersections.  Helpful for addresses that are like A between B and C.
+  def LocateAverage(self, first_interesction, second_interesction, check_cache=True):
+    first_lat_lon = self.Locate(first_interesction)["results"][0]["geometry"]["location"]
+    second_lat_lon = self.Locate(second_interesction)["results"][0]["geometry"]["location"]
+    if first_lat_lon and second_lat_lon:
+      return GetAverageLatLon([[first_lat_lon['lat'], first_lat_lon['lng']], [second_lat_lon['lat'], second_lat_lon['lng']]])
+    return None
 
   def Locate(self, address, check_cache=True):
     """Returns a maps API JSON response for the address or None.

@@ -138,7 +138,8 @@ def printRecordsText(located_recs):
     else:
       loc = 'n/a\tn/a'
 
-    print '\t'.join([r.photo_id(), date, folder, title, r.preferred_url, coder or 'failed', loc])
+    # Call str on every object before attemping to print it, more generate and can print lists correctly.
+    print '\t'.join([str(x) for x in [r.photo_id(), date, folder, title, r.preferred_url, coder or 'failed', loc]])
 
 
 def printLocations(located_recs):

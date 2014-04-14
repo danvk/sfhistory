@@ -12,6 +12,7 @@
 import math
 import sys
 import geocoder
+import json
 
 LAT_LON = 0
 ADDRESS = 1
@@ -37,6 +38,19 @@ class Locatable(object):
   def __str__(self):
     if not self.source: return ''
     return self.source
+  
+  # Used for backwards compatibility when later in the code the generate-geocodes expects an object it can access like a dictionary
+  def __getitem__(self, key):
+    return getattr(self, key)
+  
+  # Used for backwards compatibility when later in the code the generate-geocodes expects an object it can access like a dictionary
+  def __setitem__(self, key, value):
+    return setattr(self, key, value)
+  
+  # Used for backwards compatibility when later in the code the generate-geocodes expects to be able to json encode this object
+  def to_json(self):
+    return json.dumps(self.__dict__)
+    
 
   def getLatLon(self, g=None):
     """Returns either a (lat, lon) tuple or None."""

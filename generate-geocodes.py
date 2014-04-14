@@ -18,6 +18,8 @@ import cPickle
 
 # Import order here determines the order in which coders get a crack at each
 # record. We want to go in order from precise to imprecise.
+import coders.catcodes_boston
+import coders.free_streets_boston
 import coders.milstein
 import coders.nyc_parks
 import coders.sf_residences
@@ -26,6 +28,16 @@ import coders.free_streets
 import coders.catcodes
 import coders.generalizations
 
+from json import JSONEncoder
+
+# HACK, This is a monkey patch to allow classes to add a to_json method to make themselves serializable
+# This is necessary since this class calls json.dumps on objects that could be of type Locatable
+# http://stackoverflow.com/questions/18478287/making-object-json-serializable-with-regular-encoder
+def _default(self, obj):
+    return getattr(obj.__class__, "to_json", _default.default)(obj)
+_default.default = JSONEncoder().default # save unmodified default
+JSONEncoder.default = _default # replacement
+# END HACK
 
 if __name__ == '__main__':
   parser = OptionParser()
@@ -125,8 +137,9 @@ if __name__ == '__main__':
     # Give each coder a crack at the record, in turn.
     for c in geocoders:
       location_data = c.codeRecord(r)
-      if not location_data: continue
-      assert 'address' in location_data
+      if not location_data:
+        continue # TODO(mdezube) Address navy yard
+      assert 'address' in location_data or 'split_addresses' in location_data
 
       if not g:
         if options.print_recs:
@@ -136,20 +149,26 @@ if __name__ == '__main__':
         located_rec = (r, c.name(), location_data)
         break
 
-      lat_lon = None
       try:
-        geocode_result = g.Locate(location_data['address'])
-        if geocode_result:
-          lat_lon = c.getLatLonFromGeocode(geocode_result, location_data, r)
+        geocode_result = None
+        lat_lon = None
+        if 'split_addresses' in location_data: # Implies address was of the form A between B & C so we located each intersection and will average them.
+          lat_lon = g.LocateAverage(location_data['split_addresses'][0]['address'], location_data['split_addresses'][1]['address'])
+          location_data = location_data['original_address'] # Convert location_data back to its standard form now that we've accounted for the complex format of 3 streets.
+        elif 'lat' in location_data and 'lon' in location_data: # Lat & Lon have already been set so don't geocode.
+          lat_lon = [location_data['lat'], location_data['lon']]
         else:
-          sys.stderr.write('Failed to geocode %s\n' % r.photo_id())
-          # sys.stderr.write('Location: %s\n' % location_data['address'])
+          geocode_result = g.Locate(location_data['address'])
+          if geocode_result:
+            lat_lon = c.getLatLonFromGeocode(geocode_result, location_data, r)  
+          else:
+            sys.stderr.write('Failed to geocode %s\n' % r.photo_id())
       except Exception as e:
         sys.stderr.write('ERROR locating %s with %s\n' % (
             r.photo_id(), c.name()))
-        #sys.stderr.write('ERROR location: "%s"\n' % json.dumps(location_data))
+        sys.stderr.write('ERROR %s location: "%s"\n' % (e, json.dumps(location_data)))
         raise
-
+      
       if lat_lon:
         location_data['lat'] = lat_lon[0]
         location_data['lon'] = lat_lon[1]
@@ -165,14 +184,7 @@ if __name__ == '__main__':
 
   # Let each geocoder know we're done. This is useful for printing debug info.
   for c in geocoders:
-    c.finalize()
-
-  successes = 0
-  for c in geocoders:
-    sys.stderr.write('%5d %s\n' % (stats[c.name()], c.name()))
-    successes += stats[c.name()]
-
-  sys.stderr.write('%5d (total)\n' % successes)
+    c.finalize() # Not yet backported to sf coders.
 
   if options.output_format == 'lat-lons.js':
     generate_js.printJson(located_recs, lat_lon_map)
@@ -182,3 +194,11 @@ if __name__ == '__main__':
     generate_js.printRecordsText(located_recs)
   elif options.output_format == 'locations.txt':
     generate_js.printLocations(located_recs)
+  elif options.output_format == 'failed_geocode.txt':
+    generate_js.printRecordsText([rec for rec in located_recs if rec[2] is None])
+  
+  successes = 0
+  for c in geocoders:
+    sys.stderr.write('%5d %s\n' % (stats[c.name()], c.name()))
+    successes += stats[c.name()]
+  sys.stderr.write('%5d (total) which represents %.2f%%\n' % (successes, float(successes)*100/len(rs)))

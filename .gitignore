@@ -3,5 +3,11 @@
 .pydevproject
 .settings/
 
+#Flickr private information
+ma_specific_resources/flickr_private_info.txt
+
+#Contents of geocache.tgz
+geocache/
+
 #Ignore Python Build Files
 *.pyc
