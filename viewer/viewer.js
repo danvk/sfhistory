@@ -386,7 +386,7 @@ $(function() {
   $('#curtains').click(hideExpanded);
 
   $('#expanded-carousel')
-    .delegate('li', 'itemtargetin.jcarousel', function(event, carousel) {
+    .delegate('li', 'jcarousel:targetin', function(event, carousel) {
       // Load the next/previous images.
       // "this" refers to the item element
       // "carousel" is the jCarousel instance
@@ -404,13 +404,13 @@ $(function() {
         }
       }
     })
-    .delegate('li', 'itemtargetin.jcarousel', function(event, carousel) {
+    .delegate('li', 'jcarousel:targetin', function(event, carousel) {
       // Set a "current" class on the target element but no others.
       $('#expanded-carousel li').removeClass('current');
       $(this).addClass('current');
       stateWasChanged();
     });
-  $('#expanded-carousel').on('scroll.jcarousel', function(event, carousel, target, animate) {
+  $('#expanded-carousel').on('jcarousel:scroll', function(event, carousel, target) {
     // Why does $(carousel) not work here? It gives initialization errors.
     var $carousel = $('#expanded-carousel');
 
