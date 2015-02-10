@@ -12,6 +12,7 @@
 import math
 import sys
 import geocoder
+import json
 
 LAT_LON = 0
 ADDRESS = 1
@@ -31,11 +32,25 @@ class Locatable(object):
     self.source = None
     self.block_num = None
     self.block_street = None
+    self.city = 'San Francisco, CA'
     self._latlon = 'unknown'
 
   def __str__(self):
     if not self.source: return ''
     return self.source
+  
+  # Used for backwards compatibility when later in the code the generate-geocodes expects an object it can access like a dictionary
+  def __getitem__(self, key):
+    return getattr(self, key)
+  
+  # Used for backwards compatibility when later in the code the generate-geocodes expects an object it can access like a dictionary
+  def __setitem__(self, key, value):
+    return setattr(self, key, value)
+  
+  # Used for backwards compatibility when later in the code the generate-geocodes expects to be able to json encode this object
+  def to_json(self):
+    return json.dumps(self.__dict__)
+    
 
   def getLatLon(self, g=None):
     """Returns either a (lat, lon) tuple or None."""
@@ -43,13 +58,13 @@ class Locatable(object):
     if self.loc_type == LAT_LON:
       self._latlon = (self.lat, self.lon)
     elif self.loc_type == ADDRESS:
-      self._latlon = locateAddress(g, self.address)
+      self._latlon = locateAddress(g, self.address, self.city)
     elif self.loc_type == BLOCK:
       self._latlon = locateBlock(g, self.block_num, self.block_street)
     elif self.loc_type == TINY:
       self._latlon = locateTiny(g, self.tiny)
     elif self.loc_type == CROSSES:
-      self._latlon = locateCrosses(g, self.crosses)
+      self._latlon = locateCrosses(g, self.crosses, self.city)
     else:
       assert False, 'Unknown loc_type %d' % self.loc_type
     return self._latlon
@@ -67,7 +82,7 @@ def fromLatLon(lat, lon, source=None):
   return l
 
 
-def fromAddress(address, source=None):
+def fromAddress(address, city=None, source=None):
   l = Locatable()
   l.loc_type = ADDRESS
   l.address = address
@@ -75,6 +90,8 @@ def fromAddress(address, source=None):
     l.source = source
   else:
     l.source = address
+  if city:
+    l.city = city
   return l
 
 
@@ -102,7 +119,7 @@ def fromTiny(tiny, source=None):
   return l
 
 
-def fromCross(street1, street2, source=None):
+def fromCross(street1, street2, source=None, city=None):
   l = Locatable()
   l.loc_type = CROSSES
   l.crosses = [ sorted([street1, street2]) ]
@@ -110,6 +127,8 @@ def fromCross(street1, street2, source=None):
     l.source = source
   else:
     l.source = '%s and %s' % (street1, street2)
+  if city:
+    l.city = city
   return l
 
 
@@ -170,12 +189,20 @@ def InSF(lat, lon):
   return True
 
 
-def Locate(g, addr):
-  x = g.Locate(addr)
+def InNYC(lat, lon):
+  return (40.486649 < lat < 40.921814 and
+         -74.288864 < lon < -73.689423)
+
+
+def Locate(g, addr, suffix=None):
+  if not g: return None
+  x = g.Locate(addr, suffix=suffix)
   if x.status != 200:
     sys.stderr.write("%s -> status %d\n" % (addr, x.status))
     return None
-  if not InSF(x.lat, x.lon): return None
+  if x.is_fake():
+    return None
+  if not InSF(x.lat, x.lon) and not InNYC(x.lat, x.lon): return None
   return x
 
 
@@ -194,8 +221,8 @@ def LatLonDistance(lat1, lon1, lat2, lon2):
   return d
 
 
-def locateAddress(g, address):
-  x = Locate(g, address)
+def locateAddress(g, address, city):
+  x = Locate(g, address, suffix=city)
   if not x or x.accuracy != 8:
     sys.stderr.write('Failure: %s -> %s\n' % (address, x))
     return None
@@ -251,7 +278,7 @@ fixes = {
   '15th and bryant street': '@37.767102,-122.412565'
 }
 
-def locateCrosses(g, crosses):
+def locateCrosses(g, crosses, city):
   global fixes
   lat_lons = []
   loc_strs = []
@@ -267,13 +294,13 @@ def locateCrosses(g, crosses):
 
     locatable = locatable.replace('army', 'cesar chavez')
     if locatable[0] != '@':
-      x = Locate(g, locatable)
+      x = Locate(g, locatable, suffix=city)
     else:
       ll = locatable[1:].split(',')
       x = geocoder.FakeLocation(float(ll[0]), float(ll[1]), 7)
 
     if not x or (x.accuracy != 7 and not take_it):
-      sys.stderr.write('Failure: %s -> %s\n' % (locatable, x))
+      sys.stderr.write('Failure: %s -> %s, acc=%s\n' % (locatable, x, x.accuracy))
     else:
       lat_lons.append((x.lat, x.lon))
       loc_strs.append(locatable)

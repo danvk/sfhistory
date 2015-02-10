@@ -10,6 +10,10 @@ from collections import defaultdict
 from json import encoder
 encoder.FLOAT_REPR = lambda o: format(o, '.6f')
 
+# http://stackoverflow.com/questions/1342000/how-to-replace-non-ascii-characters-in-string
+def removeNonAscii(s): return "".join(i for i in s if ord(i)<128)
+
+
 def loadBlacklist():
   bl = set()
   for line in file('blacklist.lat-lons.js'):
@@ -30,13 +34,12 @@ def printJson(located_recs, lat_lon_map):
   # load a blacklist as a side input
   blacklist = loadBlacklist()
 
-  for r, coder, locatable in located_recs:
-    if not locatable: continue
+  for r, coder, location_data in located_recs:
+    if not location_data: continue
     photo_id = r.photo_id()
 
-    lat_lon = locatable.getLatLon()
-    assert lat_lon
-    lat, lon = lat_lon
+    lat = location_data['lat']
+    lon = location_data['lon']
     ll_str = '%.6f,%.6f' % (lat, lon)
     if lat_lon_map and ll_str in lat_lon_map:
       claimed_in_map[ll_str] = True
@@ -50,6 +53,7 @@ def printJson(located_recs, lat_lon_map):
   points = 0
   photos = 0
   print "var lat_lons = {"
+  is_first = True
   for lat_lon, recs in ll_to_id.iteritems():
     sorted_recs = sorted([r for r in recs
                             if r.date_range() and r.date_range()[1]],
@@ -68,10 +72,14 @@ def printJson(located_recs, lat_lon_map):
     if out_recs:
       points += 1
       photos += len(out_recs)
-      print '"%s": [%s],' % (lat_lon, ','.join(out_recs))
+      if not is_first:
+        print ',',
+      else:
+        is_first = False
+      print '"%s": [%s]' % (lat_lon, ','.join(out_recs))
 
 
-  print '"40.719595,-73.964204": [[1850,2000,"egg"]]'
+  # print '"40.719595,-73.964204": [[1850,2000,"egg"]]'
   print "};"
 
   sys.stderr.write('Dropped w/ no date: %d\n' % no_date)
@@ -81,13 +89,13 @@ def printJson(located_recs, lat_lon_map):
 
 def printRecordsJson(located_recs):
   recs = []
-  for r, coder, locatable in located_recs:
+  for r, coder, location_data in located_recs:
     rec = {
       'id': r.photo_id(),
-      'folder': r.location().replace('Folder: ', ''),
+      'folder': removeNonAscii(r.location().replace('Folder: ', '')),
       'date': record.CleanDate(r.date()),
-      'title': record.CleanTitle(r.title()),
-      'description': r.description(),
+      'title': removeNonAscii(record.CleanTitle(r.title())),
+      'description': removeNonAscii(r.description()),
       'url': r.preferred_url,
       'extracted': {
         'date_range': [ None, None ]
@@ -102,34 +110,46 @@ def printRecordsJson(located_recs):
         end.year, end.month, end.day)
 
     if coder:
-      rec['extracted']['latlon'] = locatable.getLatLon()
-      rec['extracted']['located_str'] = str(locatable)
+      rec['extracted']['latlon'] = (location_data['lat'], location_data['lon'])
+      rec['extracted']['located_str'] = removeNonAscii(location_data['address'])
       rec['extracted']['technique'] = coder
+
+    try:
+      x = json.dumps(rec)
+    except Exception as e:
+      sys.stderr.write('%s\n' % rec)
+      raise e
 
     recs.append(rec)
   print json.dumps(recs, indent=2)
 
 
 def printRecordsText(located_recs):
-  for r, coder, locatable in located_recs:
+  for r, coder, location_data in located_recs:
     date = record.CleanDate(r.date())
     title = record.CleanTitle(r.title())
     folder = r.location()
     if folder: folder = record.CleanFolder(folder)
 
-    if locatable:
-      loc = (str(locatable.getLatLon()) or '') + '\t' + str(locatable)
+    if location_data:
+      lat = location_data['lat']
+      lon = location_data['lon']
+      loc = (str((lat, lon)) or '') + '\t' + location_data['address']
     else:
       loc = 'n/a\tn/a'
 
-    print '\t'.join([r.photo_id(), date, folder, title, r.preferred_url, coder or 'failed', loc])
+    # Call str on every object before attemping to print it, more generate and can print lists correctly.
+    print '\t'.join([str(x) for x in [r.photo_id(), date, folder, title, r.preferred_url, coder or 'failed', loc]])
 
 
 def printLocations(located_recs):
   locs = defaultdict(int)
-  for r, coder, locatable in located_recs:
-    if not locatable: continue
-    lat, lon = locatable.getLatLon()
+  for r, coder, location_data in located_recs:
+    if not locatable_data: continue
+    if not 'lat' in location_data: continue
+    if not 'lon' in location_data: continue
+    lat = location_data['lat']
+    lon = location_data['lon']
     locs['%.6f,%.6f' % (lat, lon)] += 1
 
   for ll, count in locs.iteritems():

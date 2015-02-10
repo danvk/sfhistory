@@ -14,6 +14,9 @@ import sys
 from datetime import date
 from datetime import timedelta
 
+DEFAULT_MIN_YEAR = 1850
+DEFAULT_MAX_YEAR = 1999
+
 def ExtractRegex(pat, str):
   """Return the first captured string of the regex or None if there was no match."""
   m = re.search(pat, str, re.DOTALL)
@@ -42,9 +45,10 @@ def AbbreviateMonths(txt):
             .replace('August', 'Aug') \
             .replace('September', 'Sep') \
             .replace('October', 'Oct') \
-            .replace('Novemeber', 'Nov') \
+            .replace('November', 'Nov') \
             .replace('December', 'Dec') \
-            .replace('Sept', 'Sep')
+            .replace('Sept', 'Sep') \
+            .replace('Fall', 'Oct') # It's close enough
 
 
 Tags = {}
@@ -114,6 +118,7 @@ class Record:
   def description(self): return self._single_table('r')
   def title(self): return self._single_table('t')
   def note(self): return self._single_table('n')
+  def source(self): return self._single_table('a')
 
   @staticmethod
   def TagIds():
@@ -167,7 +172,7 @@ class Record:
     txt = AbbreviateMonths(txt)
 
     # An exact date with a 3-letter month abbrev., e.g. "1950 Aug. 25."
-    m = re.match(r'^(\d{4}) ([A-Z][a-z]{2,3}) ?(\d{1,2})$', txt)
+    m = re.match(r'^(\d{4}) ([A-Z][a-z]{2}) ?(\d{1,2})$', txt)
     if m:
       year, mon, day = m.groups()
       year, mon, day = int(year), parse_month(mon), int(day)
@@ -187,9 +192,17 @@ class Record:
 
       start = date(year, mon, day)
       return [start, start]
+    
+    # An exact date with a 3-letter month abbrev., e.g. "Aug 23, 1892"
+    m = re.match(r'^([A-Z][a-z]{2}) ?(\d{1,2}), ?(\d{4})$', txt)
+    if m:
+      mon, day, year = m.groups()
+      year, mon, day = int(year), parse_month(mon), int(day)
+      start = date(year, mon, day)
+      return [start, start]
 
     # An exact date range, e.g. "1950 Aug. 25-27."
-    m = re.match(r'^(\d{4}) ([A-Z][a-z]{2,3}) ?(\d{1,2})-(\d{1,2})$', txt)
+    m = re.match(r'^(\d{4}) ([A-Z][a-z]{2}) ?(\d{1,2})-(\d{1,2})$', txt)
     if m:
       year, mon, day1, day2 = m.groups()
       year, mon, day1, day2 = int(year), parse_month(mon), int(day1), int(day2)
@@ -200,7 +213,7 @@ class Record:
 
 
     # A month and year, e.g. "1971 Aug."
-    m = re.match(r'^(\d{4}) ([A-Z][a-z]{2,3})$', txt)
+    m = re.match(r'^(\d{4}) ([A-Z][a-z]{2})$', txt)
     if m:
       year, mon = m.groups()
       year, mon = int(year), parse_month(mon)
@@ -210,7 +223,7 @@ class Record:
       return [start, end]
 
     # A month and year, e.g. "Aug. 1971"
-    m = re.match(r'^([A-Z][a-z]{2,3}) (\d{4})$', txt)
+    m = re.match(r'^([A-Z][a-z]{2}) (\d{4})$', txt)
     if m:
       mon, year = m.groups()
       year, mon = int(year), parse_month(mon)
@@ -229,7 +242,32 @@ class Record:
 
     # Special case: "-1906"
     if txt == '-1906':
-      return [date(1850, 1, 1), date(1906, 4, 17)]
+      return [date(DEFAULT_MIN_YEAR, 1, 1), date(1906, 4, 17)]
+    
+    # e.g. before 1935
+    m = re.match(r'^before (\d{4})$', txt.lower())
+    if m:
+      year = int(m.group(1))
+      return [date(DEFAULT_MIN_YEAR, 1, 1), date(year, 1, 1)]
+    
+    # e.g. since 1935
+    m = re.match(r'^since (\d{4})$', txt.lower())
+    if m:
+      year = int(m.group(1))
+      return [date(year, 1, 1), date(DEFAULT_MAX_YEAR, 1, 1)]
+    
+    # exact date like 1952-04-30 with potential some chars afterward
+    m = re.match(r'^(\d{4})-(\d{1,2})-(\d{1,2}).*$', txt.lower())
+    if m:
+      year, mon, day = m.groups()
+      year, mon, day = int(year), int(mon), int(day)
+      return [date(year, mon, day), date(year, mon, day)]
+    
+    # A century like 1900's
+    m = re.match(r'^(\d{4})\'s$', txt.lower())
+    if m:
+      year = int(m.group(1))
+      return [date(year, 1, 1), date(year+99, 1, 1)]
     
     # A year range, e.g "1925-1928" or "1925-28"
     yr = re.search(r'^(\d{4}) *- *(\d{2,4})$', txt)
@@ -238,6 +276,14 @@ class Record:
       end = int(yr.group(2))
       if end < 100: end += 100 * int(start / 100)
       return [date(start, 1, 1), date(end, 12, 31)]
+    
+    # A month range, e.g April-May 1944
+    m = re.search(r'^([A-Z][a-z]{2}) *- *([A-Z][a-z]{2}) (\d{4})$', txt)
+    if m:
+      start_month = int(parse_month(m.group(1)))
+      end_month = int(parse_month(m.group(2)))
+      year = int(m.group(3))
+      return [date(year, start_month, 1), date(year, end_month, 31)]
 
     # A pair of years, e.g. "1925 or 1926"
     yp = re.search(r'^(\d{4}) or (\d{4})$', txt)
@@ -262,7 +308,7 @@ class Record:
       start = date(year, 1, 1)
       end = date(year + 99, 12, 31)
       if cen == '18':
-        start = date(1850, 1, 1)  # Photography isn't that old.
+        start = date(DEFAULT_MIN_YEAR, 1, 1)  # Photography isn't that old.
       return [start, end]
 
     # If there's a '?' or 'ca' then try it again, but ignore any uncertainty
@@ -285,9 +331,9 @@ class Record:
     if self._date_range == None:
       self._date_range = [None, None]
     if self._date_range[0] == None:
-      self._date_range[0] = date(1850, 1, 1)
+      self._date_range[0] = date(DEFAULT_MIN_YEAR, 1, 1)
     if self._date_range[1] == None:
-      self._date_range[1] = date(1999, 12, 31)
+      self._date_range[1] = date(DEFAULT_MAX_YEAR, 12, 31)
     return self._date_range
 
   def date_range_str(self):
@@ -319,7 +365,7 @@ def CleanTitle(title):
 def CleanDate(date):
   """remove [] and trailing period from dates"""
   if not date: return ''
-  date = date.replace('[', '').replace(']','')
+  date = date.replace('[', '').replace(']','').replace('\n', ' ')
   if date[-1] == '.': date = date[:-1]
   return date
 

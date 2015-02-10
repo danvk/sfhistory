@@ -5,6 +5,7 @@ from google.appengine.ext import db
 from google.appengine.ext.webapp.util import run_wsgi_app
 from google.appengine.ext.webapp import template
 
+import base64
 import os
 import simplejson as json
 import logging
@@ -14,6 +15,8 @@ try:
   VERSION = os.environ['CURRENT_VERSION_ID']
 except:
   VERSION = ''
+
+MEMCACHE_ENABLED = True
 
 
 class ImageRecord(db.Model):
@@ -25,6 +28,8 @@ class ImageRecord(db.Model):
   library_url = db.StringProperty()
   width = db.IntegerProperty()
   height = db.IntegerProperty()
+  description = db.StringProperty()
+  note = db.StringProperty()
 
 
 class ThumbnailRecord(db.Model):
@@ -35,16 +40,20 @@ class ThumbnailRecord(db.Model):
 def GetImageRecords(photo_ids):
   """Queries the ImageRecord db, w/ memcaching. Returns photo_id -> rec dict"""
   # check if we've got the whole thing in memcache
-  multi_key = VERSION + 'MIR' + ','.join(photo_ids)
-  recs = memcache.get(multi_key)
-  if recs: return recs
-
   keys_no_prefix = photo_ids[:]
-  key_prefix = VERSION + 'IR'
+  if MEMCACHE_ENABLED:
+    multi_key = VERSION + 'MIR' + ','.join(photo_ids)
+    recs = memcache.get(multi_key)
+    if recs: return recs
 
-  record_map = memcache.get_multi(keys_no_prefix, key_prefix=key_prefix)
-  missing_ids = list(set(keys_no_prefix) - set(record_map.keys()))
-  if not missing_ids: return record_map
+    key_prefix = VERSION + 'IR'
+
+    record_map = memcache.get_multi(keys_no_prefix, key_prefix=key_prefix)
+    missing_ids = list(set(keys_no_prefix) - set(record_map.keys()))
+    if not missing_ids: return record_map
+  else:
+    missing_ids = keys_no_prefix
+    record_map = {}
 
   config = db.create_config(read_policy=db.EVENTUAL_CONSISTENCY)
   db_recs = ImageRecord.get_by_key_name(missing_ids, config=config)
@@ -54,7 +63,7 @@ def GetImageRecords(photo_ids):
     record_map[id] = r
     memcache_map[id] = r
 
-  if memcache_map:
+  if MEMCACHE_ENABLED and memcache_map:
     memcache.add_multi(memcache_map, key_prefix=key_prefix)
     memcache.add(multi_key, record_map)
   return record_map
@@ -68,12 +77,12 @@ class RecordFetcher(webapp2.RequestHandler):
     """Responds to AJAX requests for record information."""
     photo_ids = self.request.get_all("id")
     default_response = {
-      'title': 'Pat and Mike Dugan running around their aunt, Carla Vanni, in Washington Square Park who was super awesome!',
+      'title': '(not here yet!)',
       'date': '1926 Feb. 18',
       'folder': 'S.F. Streets / Alemany Boulevard',
       'library_url': 'http://sflib1.sfpl.org:82/record=b1000001~S0',
-      'width': 474,
-      'height': 400
+      'width': 600,
+      'height': 500
     }
 
     rs = GetImageRecords(photo_ids)
@@ -83,12 +92,17 @@ class RecordFetcher(webapp2.RequestHandler):
         #self.response.out.write("no record for '%s'" % id)
         # This is just to aid local testing:
         response[id] = default_response.copy()
+        orig_id = id.split('-')[0]
       else:
+        title = r.title
+        if r.description:
+          title += '; ' + r.description
+        if r.note:
+          title += '; ' + r.note
         response[id] = {
-          'title': r.title,
+          'title': title,
           'date': r.date,
           'folder': r.folder,
-          'library_url': r.library_url,
           'width': r.width,
           'height': r.height
         }
@@ -134,13 +148,79 @@ class AddDims(webapp2.RequestHandler):
     self.response.out.write('Added %d dimensions' % len(db_recs))
 
 
+kProps = ['photo_id', 'title', 'date', 'folder', 'note', 'library_url', 'description', 'note']
+kIntProps = ['width', 'height']
+
+class UploadHandler(webapp2.RequestHandler):
+  def post(self):
+    """Adds a new image to the DB."""
+    self.response.headers.add_header('Content-type', 'text/plain')
+    recs = self.request.get_all('r')
+    for rec_json in recs:
+      rec = json.loads(rec_json)
+      id = rec['photo_id']
+      assert id
+
+      verb = 'Updated'
+      record = ImageRecord.get_by_key_name(id)
+      if not record:
+        verb = 'Added'
+        record = ImageRecord(key_name=id)
+
+      props = record.properties()
+      for field in kProps:
+        if field in rec:
+          props[field].__set__(record, rec[field])
+      for field in kIntProps:
+        if field in rec:
+          props[field].__set__(record, int(rec[field]))
+
+      record.put()
+      self.response.out.write('%s image record %s\n' % (verb, id))
+
+# From http://stackoverflow.com/questions/9461085/password-protect-static-page-appengine-howto
+def basicAuth(func):
+  def callf(webappRequest, *args, **kwargs):
+    # Parse the header to extract a user/password combo.
+    # We're expecting something like "Basic XZxgZRTpbjpvcGVuIHYlc4FkZQ=="
+    auth_header = webappRequest.request.headers.get('Authorization')
+
+    if auth_header == None:
+      webappRequest.response.set_status(401, message="Authorization Required")
+      webappRequest.response.headers['WWW-Authenticate'] = 'Basic realm="OldNYC"'
+    else:
+      # Isolate the encoded user/passwd and decode it
+      auth_parts = auth_header.split(' ')
+      user_pass_parts = base64.b64decode(auth_parts[1]).split(':')
+      user_arg = user_pass_parts[0]
+      pass_arg = user_pass_parts[1]
+
+      if user_arg != "robert" or pass_arg != "moses":
+        webappRequest.response.set_status(401, message="Authorization Required")
+        webappRequest.response.headers['WWW-Authenticate'] = 'Basic realm="Secure Area"'
+        # Rendering a 401 Error page is a good way to go...
+        self.response.out.write('sorry!', {})
+      else:
+        return func(webappRequest, *args, **kwargs)
+
+  return callf
+
+class RootHandler(webapp2.RequestHandler):
+  @basicAuth
+  def get(self):
+    logging.info('hello')
+    self.response.headers['Content-type'] = 'text/html'
+    self.response.out.write(open('static/viewer.html').read())
+
+
 app = webapp2.WSGIApplication(
                               [
+                               ('/', RootHandler),
                                ('/info', RecordFetcher),
-                               #('/upload', UploadThumbnailHandler),
+                               ('/upload', UploadHandler),
                                #('/thumb.*', ThumbnailFetcher),
                                ('/addegg', AddEgg),
-                               ('/adddims', AddDims),
+                               #('/adddims', AddDims),
                               ],
                               debug=True)
 
