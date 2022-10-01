@@ -8,13 +8,14 @@ var photo_id_to_info = {};
 // The callback is called with the photo_ids that were just loaded, after the
 // UI updates.  The callback may assume that infoForPhotoId() will return data
 // for all the newly-available photo_ids.
-function loadInfoForPhotoIds(photo_ids, opt_callback) {
+function loadInfoForPhotoIds(lat_lon, photo_ids, opt_callback) {
   var data = ''
   for (var i = 0; i < photo_ids.length; i++) {
     data += (i ? '&' : '') + 'id=' + photo_ids[i];
   }
 
-  $.post('/info', data, function(data, status, xhr) {
+  const latLng = ('' + lat_lon).replace(',', '');
+  $.get(`/by-location/${latLng}.json`, function(data) {
     // Add these values to the cache.
     $.extend(photo_id_to_info, data);
 

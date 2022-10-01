@@ -55,7 +55,7 @@ function displayInfoForLatLon(lat_lon, marker, opt_callback) {
   marker.setIcon(selected_marker_icons[photo_ids.length > 100 ? 100 : photo_ids.length]);
   marker.setZIndex(100000 + zIndex);
 
-  loadInfoForPhotoIds(photo_ids, opt_callback);
+  loadInfoForPhotoIds(lat_lon, photo_ids, opt_callback);
   loadPictures();
 }
 
@@ -114,7 +114,7 @@ function initialize_map() {
         }
       ]
   };
-  
+
   map = new google.maps.Map($('#map').get(0), opts);
 
   // This shoves the navigation bits down by a CSS-specified amount
@@ -222,7 +222,7 @@ function setCount(total) {
   while (rgx.test(total)) {
     total = total.replace(rgx, '$1' + ',' + '$2');
   }
-  
+
   $('#count').html(total);
 }
 
@@ -282,7 +282,7 @@ function loadPictures() {
 
 // This creates the holder "pane" for an expanded image.
 // The expanded image slideshow consists of many of these.
-// id 
+// id
 function buildHolder(photo_id, img_width, is_visible) {
   var info = infoForPhotoId(photo_id);
   var $holder = $('#expanded-image-holder-template').clone().removeAttr('id');
