@@ -1,0 +1,38 @@
+{
+  "AAB-3075": {
+    "title": "California Street at Lyon Street",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-California-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008084~S0",
+    "width": 567,
+    "height": 400
+  },
+  "AAB-3080": {
+    "title": "California Street at Lyon",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-California-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008089~S0",
+    "width": 582,
+    "height": 400
+  },
+  "AAB-3131": {
+    "title": "California and Lyon streets ",
+    "date": "1944 Sept. 30",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Streets-California-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008140~S0",
+    "width": 781,
+    "height": 400
+  }
+}

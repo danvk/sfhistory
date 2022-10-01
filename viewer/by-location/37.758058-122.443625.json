@@ -1,0 +1,50 @@
+{
+  "AAB-5871": {
+    "title": "Automobile traffic on Clayton Street at Market",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets. Clayton.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010816~S0",
+    "width": 469,
+    "height": 400
+  },
+  "AAB-6185": {
+    "title": "Market Street Extension, original condition at switchback, Mono and Caselli",
+    "date": "1921 ",
+    "years": [
+      1921,
+      1921
+    ],
+    "folder": "S.F. Streets-Market-1921-Extension.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011127~S0",
+    "width": 564,
+    "height": 400
+  },
+  "AAB-6276": {
+    "title": "Market Street at Clayton",
+    "date": "1930 Feb. 11",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Market-1930.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011217~S0",
+    "width": 294,
+    "height": 400
+  },
+  "AAB-6461": {
+    "title": "Car skidding on ice water on Market at Clayton Street",
+    "date": "1949 Jan. 3",
+    "years": [
+      1949,
+      1949
+    ],
+    "folder": "S.F. Streets-Market-1949.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011400~S0",
+    "width": 426,
+    "height": 400
+  }
+}

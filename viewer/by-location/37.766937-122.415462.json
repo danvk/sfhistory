@@ -1,0 +1,38 @@
+{
+  "AAC-3194": {
+    "title": "Building damaged by earthquake at Fifteenth and Folsom streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Folsom Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018071~S0",
+    "width": 477,
+    "height": 400
+  },
+  "AAB-3687": {
+    "title": "Folsom at 15th Street",
+    "date": "1932",
+    "years": [
+      1932,
+      1932
+    ],
+    "folder": "S.F. Streets-Folsom.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008678~S0",
+    "width": 573,
+    "height": 400
+  },
+  "AAB-5885": {
+    "title": "Fifteenth at Folsom Street",
+    "date": "1932",
+    "years": [
+      1932,
+      1932
+    ],
+    "folder": "S.F. Streets-15th.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010830~S0",
+    "width": 569,
+    "height": 400
+  }
+}

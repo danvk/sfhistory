@@ -1,0 +1,38 @@
+{
+  "AAC-5722": {
+    "title": "Exterior of 1144 Ellis Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Residences-1144 Ellis.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020588~S0",
+    "width": 256,
+    "height": 400
+  },
+  "AAB-3508": {
+    "title": "1100 block of Ellis street",
+    "date": "1940",
+    "years": [
+      1940,
+      1940
+    ],
+    "folder": "S.F. Streets-Ellis.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008511~S0",
+    "width": 509,
+    "height": 400
+  },
+  "aad-8160": {
+    "title": "Fireman Pat Collins from Engine 34 sitting under sagging ceiling in firehouse at 1135 Ellis Street",
+    "date": "1952 Oct. 2",
+    "years": [
+      1952,
+      1952
+    ],
+    "folder": "S.F. Fire Department-Engine 34.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1034083~S0",
+    "width": 264,
+    "height": 400
+  }
+}

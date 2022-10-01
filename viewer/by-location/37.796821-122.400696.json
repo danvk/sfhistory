@@ -1,0 +1,50 @@
+{
+  "AAC-6808": {
+    "title": "George H. Tay and Company, 612-618 Battery Street",
+    "date": "1880",
+    "years": [
+      1880,
+      1880
+    ],
+    "folder": "S.F. Businesses-George H. Tay and Co.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021667~S0",
+    "width": 516,
+    "height": 400
+  },
+  "AAC-4714": {
+    "title": "Custom House. Battery and Jackson streets. 1903",
+    "date": "1903",
+    "years": [
+      1903,
+      1903
+    ],
+    "folder": "S.F. Customs House (Old).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019583~S0",
+    "width": 470,
+    "height": 400
+  },
+  "AAB-2870": {
+    "title": "Battery Street, corner of Jackson, 1905",
+    "date": "1905",
+    "years": [
+      1905,
+      1905
+    ],
+    "folder": "S.F. Streets-Battery (pre 1906).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007882~S0",
+    "width": 652,
+    "height": 400
+  },
+  "AAB-4093": {
+    "title": "North west corner of Jackson street at Battery, 1906",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Streets-Jackson-1906.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009080~S0",
+    "width": 521,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAB-5239": {
+    "title": "San Bruno Avenue and 23rd Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-San Bruno Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010197~S0",
+    "width": 581,
+    "height": 400
+  },
+  "AAC-7688": {
+    "title": "Municipal Railway bus yard at 23rd Street and San Bruno",
+    "date": "1949 July 21",
+    "years": [
+      1949,
+      1949
+    ],
+    "folder": "S.F. Transportation-Buses-Yards-23rd and San Bruno.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022545~S0",
+    "width": 569,
+    "height": 400
+  }
+}

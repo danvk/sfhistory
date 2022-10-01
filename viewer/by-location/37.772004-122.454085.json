@@ -1,0 +1,26 @@
+{
+  "AAB-3663": {
+    "title": "Fell Street at Stanyan",
+    "date": "1937",
+    "years": [
+      1937,
+      1937
+    ],
+    "folder": "S.F. Streets-Fell.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008654~S0",
+    "width": 560,
+    "height": 400
+  },
+  "AAB-5455": {
+    "title": "Stanyan Street at Fell",
+    "date": "1956 Oct. 31",
+    "years": [
+      1956,
+      1956
+    ],
+    "folder": "S.F. Streets-Stanyan.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010406~S0",
+    "width": 498,
+    "height": 400
+  }
+}

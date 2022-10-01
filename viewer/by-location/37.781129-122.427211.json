@@ -1,0 +1,38 @@
+{
+  "AAB-5549": {
+    "title": "Turk Street at Laguna",
+    "date": "1930",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Turk.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010500~S0",
+    "width": 573,
+    "height": 400
+  },
+  "AAB-4316": {
+    "title": "Group of people standing at Turk and Laguna streets where a man was found dead in a storm sewer",
+    "date": "1952 Dec. 3",
+    "years": [
+      1952,
+      1952
+    ],
+    "folder": "S.F. Streets-Laguna.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009294~S0",
+    "width": 500,
+    "height": 400
+  },
+  "AAD-6085": {
+    "title": "Housing project at Laguna and Turk streets",
+    "date": "1964 Aug. 24",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Housing Projects-Laguna & Turk.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1030850~S0",
+    "width": 490,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAC-5042": {
+    "title": "Metropolitan Temple. Northeast corner Fifth and Jessie streets. 1884?",
+    "date": "1884?",
+    "years": [
+      1883,
+      1885
+    ],
+    "folder": "S.F. Metropolitan Temple.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019911~S0",
+    "width": 295,
+    "height": 400
+  },
+  "AAC-5026": {
+    "title": "Metropolitan Temple, San Francisco, Cal.",
+    "date": "1890",
+    "years": [
+      1890,
+      1890
+    ],
+    "folder": "S.F. Metropolitan Temple.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019895~S0",
+    "width": 504,
+    "height": 400
+  }
+}

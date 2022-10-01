@@ -1,0 +1,74 @@
+{
+  "AAA-9136": {
+    "title": "Tower Theater",
+    "date": "1942-",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Theaters-Tower.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004201~S0",
+    "width": 247,
+    "height": 400
+  },
+  "AAA-9138": {
+    "title": "Interior of the Tower Theater",
+    "date": "1942-",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Theaters-Tower.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004203~S0",
+    "width": 683,
+    "height": 400
+  },
+  "AAA-9137": {
+    "title": "Foyer of the Tower Theater",
+    "date": "1943 Oct. 28",
+    "years": [
+      1943,
+      1943
+    ],
+    "folder": "S.F. Theaters-Tower.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004202~S0",
+    "width": 683,
+    "height": 400
+  },
+  "AAA-9139": {
+    "title": "Interior of the Tower Theater",
+    "date": "1943 Oct. 28",
+    "years": [
+      1943,
+      1943
+    ],
+    "folder": "S.F. Theaters-Tower.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004204~S0",
+    "width": 683,
+    "height": 400
+  },
+  "AAC-7464": {
+    "title": "Spiegel Outlet Store at 2474 Mission Street",
+    "date": "1958 July 5",
+    "years": [
+      1958,
+      1958
+    ],
+    "folder": "S.F. Businesses-Spiegel.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022321~S0",
+    "width": 414,
+    "height": 400
+  },
+  "AAA-9140": {
+    "title": "Tower Theater at 2465 Mission Street",
+    "date": "1964 Aug. 12",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Theaters-Tower.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004205~S0",
+    "width": 325,
+    "height": 400
+  }
+}

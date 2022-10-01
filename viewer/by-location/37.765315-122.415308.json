@@ -1,0 +1,38 @@
+{
+  "AAB-5929": {
+    "title": "Streetcars driving through water on Sixteenth Street, at Folsom",
+    "date": "1905",
+    "years": [
+      1905,
+      1905
+    ],
+    "folder": "S.F. Streets-16th.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010874~S0",
+    "width": 512,
+    "height": 400
+  },
+  "AAB-3717": {
+    "title": "Flood at 16th and Folsom streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Streets-Folsom.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008708~S0",
+    "width": 689,
+    "height": 400
+  },
+  "AAB-3710": {
+    "title": "Construction of a warehouse at Folsom and 16th streets",
+    "date": "1941 Mar. 8",
+    "years": [
+      1941,
+      1941
+    ],
+    "folder": "S.F. Streets-Folsom.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008701~S0",
+    "width": 607,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAC-3596": {
+    "title": "Sutter Street between Taylor and Jones",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Sutter Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018468~S0",
+    "width": 535,
+    "height": 400
+  },
+  "AAB-1950": {
+    "title": "Canterbury Hotel, 750 Sutter Street",
+    "date": "1964 July 5",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Hotels-Canterbury.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006990~S0",
+    "width": 324,
+    "height": 400
+  }
+}

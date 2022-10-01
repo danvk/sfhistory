@@ -1,0 +1,62 @@
+{
+  "AAC-3600": {
+    "title": "3rd Street south of Mission Street",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Third Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018472~S0",
+    "width": 492,
+    "height": 400
+  },
+  "AAB-4731": {
+    "title": "Mission Street, west of Third",
+    "date": "ca. 1909",
+    "years": [
+      1908,
+      1910
+    ],
+    "folder": "S.F. Streets-Mission-1900's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009704~S0",
+    "width": 529,
+    "height": 400
+  },
+  "AAB-5818": {
+    "title": "Trucks slowing down traffic at Mission and Third streets",
+    "date": "1938 Mar. 18",
+    "years": [
+      1938,
+      1938
+    ],
+    "folder": "S.F. Streets-3rd-1930's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010763~S0",
+    "width": 429,
+    "height": 400
+  },
+  "AAB-5836": {
+    "title": "Third Street, looking south from Mission Street",
+    "date": "1961 Jan. 10",
+    "years": [
+      1961,
+      1961
+    ],
+    "folder": "S.F. Streets-3rd-1960's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010781~S0",
+    "width": 344,
+    "height": 400
+  },
+  "AAC-0717": {
+    "title": "Demolition of a building at Third and Mission streets to make way for the Yerba Buena Center redevelopment project",
+    "date": "1971?",
+    "years": [
+      1970,
+      1972
+    ],
+    "folder": "S.F. Districts-South Of Market-Yerba Buena Center.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1016044~S0",
+    "width": 325,
+    "height": 400
+  }
+}

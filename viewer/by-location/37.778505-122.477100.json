@@ -1,0 +1,38 @@
+{
+  "AAA-4327": {
+    "title": "Anza Street at Eighteenth Avenue, looking west, 1927",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Anza.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1000016~S0",
+    "width": 560,
+    "height": 400
+  },
+  "AAA-4328": {
+    "title": "Anza Street at Eighteenth Avenue, looking east, 1927",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Anza.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1000017~S0",
+    "width": 563,
+    "height": 400
+  },
+  "AAB-6037": {
+    "title": "18th Avenue at Anza Street",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-18th Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010981~S0",
+    "width": 570,
+    "height": 400
+  }
+}

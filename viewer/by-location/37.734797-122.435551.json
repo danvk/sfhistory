@@ -1,0 +1,26 @@
+{
+  "AAD-2706": {
+    "title": "Chenery Street near Lippard Avenue, looking west",
+    "date": "-1922",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-Chenery.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1027525~S0",
+    "width": 536,
+    "height": 400
+  },
+  "AAB-8711": {
+    "title": "Lippard Street, looking south towards Chenery Park",
+    "date": "1970",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Streets-Lippard.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1013629~S0",
+    "width": 494,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAA-9086": {
+    "title": "The Princess Theatre",
+    "date": "Between 1907 and 1935",
+    "years": [
+      1907,
+      1935
+    ],
+    "folder": "S.F. Theaters-Princess.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004152~S0",
+    "width": 490,
+    "height": 400
+  },
+  "AAA-9085": {
+    "title": "Building that was formerly the Princess Theatre at 1671 Ellis Street",
+    "date": "1968",
+    "years": [
+      1968,
+      1968
+    ],
+    "folder": "S.F. Theaters-Princess.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004151~S0",
+    "width": 627,
+    "height": 400
+  }
+}

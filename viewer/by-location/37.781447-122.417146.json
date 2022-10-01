@@ -1,0 +1,26 @@
+{
+  "AAB-3840": {
+    "title": "Golden Gate Avenue at Larkin Street",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Golden Gate Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008828~S0",
+    "width": 598,
+    "height": 400
+  },
+  "AAB-1814": {
+    "title": "Federal Reserve Lounge at Larkin and Golden Gate",
+    "date": "1964 Aug. 21",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Bars-Federal Reserve Lounge.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006857~S0",
+    "width": 491,
+    "height": 400
+  }
+}

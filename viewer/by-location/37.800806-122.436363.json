@@ -1,0 +1,62 @@
+{
+  "AAB-3593": {
+    "title": "Fillmore Street, north from Chestnut",
+    "date": "1926 Mar. 11",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Fillmore-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008585~S0",
+    "width": 602,
+    "height": 400
+  },
+  "AAB-3303": {
+    "title": "Chestnut at Fillmore Street",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-Chestnut-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008306~S0",
+    "width": 563,
+    "height": 400
+  },
+  "AAB-3595": {
+    "title": "Fillmore Street at Chestnut",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-Fillmore-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008587~S0",
+    "width": 577,
+    "height": 400
+  },
+  "AAC-8451": {
+    "title": "Two streetcars at the intersection of Fillmore and Chestnut streets in the Marina",
+    "date": "1937",
+    "years": [
+      1937,
+      1937
+    ],
+    "folder": "S.F. Transportation-Streetcars-Lines-Market Street Railway-Fillmore.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1023307~S0",
+    "width": 489,
+    "height": 400
+  },
+  "AAB-3309": {
+    "title": "Chestnut Street, west from Fillmore Street",
+    "date": "1944",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Streets-Chestnut-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008312~S0",
+    "width": 500,
+    "height": 400
+  }
+}

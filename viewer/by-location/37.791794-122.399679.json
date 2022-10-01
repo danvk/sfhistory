@@ -1,0 +1,26 @@
+{
+  "AAB-2877": {
+    "title": "View of Battery Street between Bush and Pine, 1880",
+    "date": "1880",
+    "years": [
+      1880,
+      1880
+    ],
+    "folder": "S.F. Streets-Battery (pre 1906).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007889~S0",
+    "width": 527,
+    "height": 400
+  },
+  "AAB-2883": {
+    "title": "Battery Street between Bush and Pine",
+    "date": "between 1914 and 1916",
+    "years": [
+      1914,
+      1916
+    ],
+    "folder": "S.F. Streets-Battery (after 1906).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007895~S0",
+    "width": 573,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAB-5640": {
+    "title": "Vallejo Street at Polk",
+    "date": "1928",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Streets-Vallejo.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010590~S0",
+    "width": 573,
+    "height": 400
+  },
+  "AAB-5046": {
+    "title": "Polk near Vallejo Street",
+    "date": "1945 Jan. 3",
+    "years": [
+      1945,
+      1945
+    ],
+    "folder": "S.F. Streets-Polk.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010006~S0",
+    "width": 788,
+    "height": 400
+  }
+}

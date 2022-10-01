@@ -1,0 +1,38 @@
+{
+  "AAB-5756": {
+    "title": "Third Street between Market and Mission streets",
+    "date": "1890",
+    "years": [
+      1890,
+      1890
+    ],
+    "folder": "S.F. Streets - 3rd - Pre-1906.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010701~S0",
+    "width": 326,
+    "height": 400
+  },
+  "AAC-3893": {
+    "title": "Looking north on 3rd Street, between Market and Mission",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Districts-Downtown.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018765~S0",
+    "width": 320,
+    "height": 400
+  },
+  "AAC-8131": {
+    "title": "Horse drawn vehicles on Third Street, between Mission and Market streets",
+    "date": "ca. 1909",
+    "years": [
+      1908,
+      1910
+    ],
+    "folder": "S.F. Transportation-Horse Drawn Vehicles.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022987~S0",
+    "width": 524,
+    "height": 400
+  }
+}

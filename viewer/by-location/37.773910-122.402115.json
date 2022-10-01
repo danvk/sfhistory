@@ -1,0 +1,38 @@
+{
+  "AAB-2925": {
+    "title": "Brannan Street between 6th and 7th",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Brannan.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007937~S0",
+    "width": 603,
+    "height": 400
+  },
+  "AAB-2926": {
+    "title": "Brannan Street between 6th and 7th",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Brannan.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007938~S0",
+    "width": 580,
+    "height": 400
+  },
+  "AAC-6555": {
+    "title": "Cedar Sweep Company, Brannan Street between 6th & 7th",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Cedar Sweep Co.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021415~S0",
+    "width": 566,
+    "height": 400
+  }
+}

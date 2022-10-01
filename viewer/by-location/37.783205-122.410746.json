@@ -1,0 +1,38 @@
+{
+  "AAB-5529": {
+    "title": "View of Taylor Street at top of Nob Hill from Turk Street",
+    "date": "1864",
+    "years": [
+      1864,
+      1864
+    ],
+    "folder": "S.F. Streets-Taylor-(pre 1906).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010480~S0",
+    "width": 465,
+    "height": 400
+  },
+  "AAB-5554": {
+    "title": "Turk Street at Taylor",
+    "date": "1982",
+    "years": [
+      1982,
+      1982
+    ],
+    "folder": "S.F. Streets-Turk.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010505~S0",
+    "width": 498,
+    "height": 400
+  },
+  "AAC-1536": {
+    "title": "Corner of Taylor and Turk streets in the Tenderloin District",
+    "date": "1982",
+    "years": [
+      1982,
+      1982
+    ],
+    "folder": "S.F. Districts-Tenderloin.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1015406~S0",
+    "width": 499,
+    "height": 400
+  }
+}

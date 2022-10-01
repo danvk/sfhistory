@@ -1,0 +1,50 @@
+{
+  "AAC-4681": {
+    "title": "Bancroft Building, 1871 Market St. ",
+    "date": "1871",
+    "years": [
+      1871,
+      1871
+    ],
+    "folder": "S.F. Bancroft Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019551~S0",
+    "width": 480,
+    "height": 400
+  },
+  "AAC-4682": {
+    "title": "Bancroft Building, fire, May 31, 1886",
+    "date": "1886",
+    "years": [
+      1886,
+      1886
+    ],
+    "folder": "S.F. Bancroft Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019552~S0",
+    "width": 455,
+    "height": 400
+  },
+  "AAC-3456": {
+    "title": "Refugees gathered in a park near Market and Guerrero streets as city burns in background",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Fire Scenes.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018329~S0",
+    "width": 497,
+    "height": 400
+  },
+  "AAB-6225": {
+    "title": "Market Street at Guerrero",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Market-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011166~S0",
+    "width": 569,
+    "height": 400
+  }
+}

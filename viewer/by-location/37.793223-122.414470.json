@@ -1,0 +1,38 @@
+{
+  "AAB-3331": {
+    "title": "Clay Street, east from Jones, 1875",
+    "date": "1875",
+    "years": [
+      1875,
+      1875
+    ],
+    "folder": "S.F. Streets-Clay-1870's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008334~S0",
+    "width": 322,
+    "height": 400
+  },
+  "AAB-1969": {
+    "title": "Comstock Hotel, Jones and Clay Streets",
+    "date": "1964 June 23",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Hotels-Comstock.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007009~S0",
+    "width": 338,
+    "height": 400
+  },
+  "AAB-2142": {
+    "title": "Jones & Clay Hotel, Jones and Clay Streets",
+    "date": "1964 June 23",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Hotels-Jones & Clay.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007154~S0",
+    "width": 326,
+    "height": 400
+  }
+}

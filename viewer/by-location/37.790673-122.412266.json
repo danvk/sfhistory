@@ -1,0 +1,38 @@
+{
+  "AAB-4948": {
+    "title": "Pine St Above Taylor",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-Pine-N.D.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009910~S0",
+    "width": 494,
+    "height": 400
+  },
+  "AAB-4958": {
+    "title": "Pine street, above Taylor. 1865?",
+    "date": "186-",
+    "years": [
+      1860,
+      1869
+    ],
+    "folder": "S.F. Streets-Pine-1860's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009920~S0",
+    "width": 423,
+    "height": 400
+  },
+  "AAC-3472": {
+    "title": "View of earthquake and fire damage near Pine and Taylor streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Pine Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018345~S0",
+    "width": 539,
+    "height": 400
+  }
+}

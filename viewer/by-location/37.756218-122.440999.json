@@ -1,0 +1,38 @@
+{
+  "AAB-6107": {
+    "title": "Market Street extension looking south from Corwin to Romain Street",
+    "date": "1918 Sept. 27",
+    "years": [
+      1918,
+      1918
+    ],
+    "folder": "S.F. Streets-Market-1918-Extension.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011050~S0",
+    "width": 561,
+    "height": 400
+  },
+  "AAB-6160": {
+    "title": "Market Street Extension south from Romain Street",
+    "date": "1920 Nov. 23",
+    "years": [
+      1920,
+      1920
+    ],
+    "folder": "S.F. Streets-Market-1920-Extension.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011103~S0",
+    "width": 562,
+    "height": 400
+  },
+  "AAB-6179": {
+    "title": "Market Street Extension north toward switchback past Corwin from Romain during grading",
+    "date": "1921 Mar. 18",
+    "years": [
+      1921,
+      1921
+    ],
+    "folder": "S.F. Streets-Market-1921-Extension.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011121~S0",
+    "width": 568,
+    "height": 400
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "AAC-0653": {
+    "title": "St. Francis Circle and Sloat Boulevard. Completed pavement.",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Districts-St. Francis Wood.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1015980~S0",
+    "width": 589,
+    "height": 400
+  },
+  "AAB-4999": {
+    "title": "Portola Drive near West Portal",
+    "date": "1915 or 1916",
+    "years": [
+      1915,
+      1916
+    ],
+    "folder": "S.F. Streets-Portola Drive.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009961~S0",
+    "width": 574,
+    "height": 400
+  },
+  "AAB-5736": {
+    "title": "Intersection of Junipero Serra With Portola Drive Looking N. E.",
+    "date": "1930 May 21",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-West Portal Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010684~S0",
+    "width": 499,
+    "height": 400
+  }
+}

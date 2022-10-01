@@ -1,0 +1,74 @@
+{
+  "AAC-8916": {
+    "title": "View from Jones and California streets, looking toward Mission Bay",
+    "date": "1867",
+    "years": [
+      1867,
+      1867
+    ],
+    "folder": "S.F. Views-1866-67.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1023772~S0",
+    "width": 622,
+    "height": 400
+  },
+  "AAC-8960": {
+    "title": "Panoramic View of San Francisco from California and Jones streets, looking east. Goat Island in the distance.",
+    "date": "ca. 1898",
+    "years": [
+      1897,
+      1899
+    ],
+    "folder": "S.F. Views-1898-99.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1023816~S0",
+    "width": 570,
+    "height": 400
+  },
+  "AAB-3162": {
+    "title": "California at Jones, view East",
+    "date": "1956 May 16",
+    "years": [
+      1956,
+      1956
+    ],
+    "folder": "S.F. Streets-California-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008170~S0",
+    "width": 499,
+    "height": 400
+  },
+  "AAB-3222": {
+    "title": "California street, view east at Jones",
+    "date": "1956 May 16",
+    "years": [
+      1956,
+      1956
+    ],
+    "folder": "S.F. Streets-California-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008225~S0",
+    "width": 498,
+    "height": 400
+  },
+  "AAB-3166": {
+    "title": "Track reconstruction, view east of California Street at Jones",
+    "date": "1957 Aug. 29",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Streets-California-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008174~S0",
+    "width": 502,
+    "height": 400
+  },
+  "AAB-3153": {
+    "title": "California Street, view East at Jones",
+    "date": "1957 Nov. 20",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Streets-California-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008162~S0",
+    "width": 495,
+    "height": 400
+  }
+}

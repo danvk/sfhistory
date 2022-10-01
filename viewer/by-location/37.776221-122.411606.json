@@ -1,0 +1,38 @@
+{
+  "AAC-6369": {
+    "title": "Bell Brook Dairies located on 8th and Howard Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Businesses-Bell Brook Dairies.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021229~S0",
+    "width": 487,
+    "height": 400
+  },
+  "AAB-4004": {
+    "title": "Howard Street at 8th",
+    "date": "1936 Feb. 19",
+    "years": [
+      1936,
+      1936
+    ],
+    "folder": "S.F. Streets-Howard-1930's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008991~S0",
+    "width": 536,
+    "height": 400
+  },
+  "AAB-4006": {
+    "title": "Intersection of Howard and 8th streets",
+    "date": "1943 Mar. 18",
+    "years": [
+      1943,
+      1943
+    ],
+    "folder": "S.F. Streets-Howard-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008993~S0",
+    "width": 564,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAA-8400": {
+    "title": "The panhandle near Oak and Shrader Street",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Parks-Golden Gate-Panhandle.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1003485~S0",
+    "width": 573,
+    "height": 400
+  },
+  "AAB-4778": {
+    "title": "Oak Street at Shrader",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-Oak.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009749~S0",
+    "width": 555,
+    "height": 400
+  }
+}

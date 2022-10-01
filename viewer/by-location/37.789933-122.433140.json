@@ -1,0 +1,62 @@
+{
+  "AAC-6214": {
+    "title": "San Francisco. Public Library. Fillmore branch no. 6. Exterior. 2435 Sacramento street, near Fillmore",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Libraries-SFPL-Branches-Fillmore.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021075~S0",
+    "width": 309,
+    "height": 400
+  },
+  "AAC-6215": {
+    "title": "San Francisco. Public Library. Fillmore branch no. 6. Interior. 2435 Sacramento street, near Fillmore",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Libraries-SFPL-Branches-Fillmore.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021076~S0",
+    "width": 446,
+    "height": 400
+  },
+  "AAC-6216": {
+    "title": "San Francisco. Public Library. Fillmore branch no. 6. Interior.",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Libraries-SFPL-Branches-Fillmore.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021077~S0",
+    "width": 470,
+    "height": 400
+  },
+  "AAA-9686": {
+    "title": "Women making children's costumes at San Francisco Recreational School at 2435 Sacramento Street",
+    "date": "1935 Jan. 31",
+    "years": [
+      1935,
+      1935
+    ],
+    "folder": "S.F. Schools-Adult-Recreational.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004747~S0",
+    "width": 512,
+    "height": 400
+  },
+  "AAA-9687": {
+    "title": "Women making puppets at San Francisco Recreational School at 2435 Sacramento Street",
+    "date": "1935 Jan. 31",
+    "years": [
+      1935,
+      1935
+    ],
+    "folder": "S.F. Schools-Adult-Recreational.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1004748~S0",
+    "width": 526,
+    "height": 400
+  }
+}

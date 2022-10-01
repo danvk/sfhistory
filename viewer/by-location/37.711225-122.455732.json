@@ -1,0 +1,38 @@
+{
+  "AAB-5282": {
+    "title": "San Jose Ave. - south from Sickles Ave.",
+    "date": "1926 Mar. 29",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-San Jose Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010235~S0",
+    "width": 533,
+    "height": 400
+  },
+  "AAB-5302": {
+    "title": "San Jose Ave. & Sickles Ave.",
+    "date": "1926 Mar. 29",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-San Jose Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010255~S0",
+    "width": 544,
+    "height": 400
+  },
+  "AAB-5281": {
+    "title": "Car parked on San Jose Avenue at Sickles",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-San Jose Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010234~S0",
+    "width": 507,
+    "height": 400
+  }
+}

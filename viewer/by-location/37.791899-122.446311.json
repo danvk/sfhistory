@@ -1,0 +1,38 @@
+{
+  "AAB-4400": {
+    "title": "Lyon St. N. of Pacific",
+    "date": "1926 Mar. 23",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Lyon.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009378~S0",
+    "width": 616,
+    "height": 400
+  },
+  "AAC-5949": {
+    "title": "House at 3100 Pacific Avenue",
+    "date": "1957 Nov. 26",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Residences-3100 Pacific Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020814~S0",
+    "width": 487,
+    "height": 400
+  },
+  "AAC-5950": {
+    "title": "Wrecking crew tearing down house at 3100 Pacific Avenue",
+    "date": "1958 Aug. 12",
+    "years": [
+      1958,
+      1958
+    ],
+    "folder": "S.F. Residences-3100 Pacific Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020815~S0",
+    "width": 364,
+    "height": 400
+  }
+}

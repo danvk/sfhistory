@@ -1,0 +1,26 @@
+{
+  "AAB-5620": {
+    "title": "Automobile parked on Valencia Street at 14th",
+    "date": "1932",
+    "years": [
+      1932,
+      1932
+    ],
+    "folder": "S.F. Streets-Valencia.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010570~S0",
+    "width": 579,
+    "height": 400
+  },
+  "AAB-5883": {
+    "title": "Intersection of Valencia and Fourteenth Street",
+    "date": "1936 Feb. 26",
+    "years": [
+      1936,
+      1936
+    ],
+    "folder": "S.F. Streets-14th.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010828~S0",
+    "width": 607,
+    "height": 400
+  }
+}

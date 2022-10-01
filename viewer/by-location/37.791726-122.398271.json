@@ -1,0 +1,38 @@
+{
+  "AAC-2660": {
+    "title": "Ruins of the Schloss Crockery Company building at 409 Market Street",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Businesses-Schloss Crockery Company.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1017549~S0",
+    "width": 576,
+    "height": 400
+  },
+  "AAC-7102": {
+    "title": "IBM building at the corner of Market and Front streets",
+    "date": "1956 Oct. 29",
+    "years": [
+      1956,
+      1956
+    ],
+    "folder": "S.F. Businesses-IBM Corporation.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021959~S0",
+    "width": 436,
+    "height": 400
+  },
+  "AAD-5970": {
+    "title": "Greyhound building at 371 Market Street",
+    "date": "1964 Aug. 10",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Terminals-Greyhound.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1030735~S0",
+    "width": 492,
+    "height": 400
+  }
+}

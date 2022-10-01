@@ -1,0 +1,38 @@
+{
+  "AAB-5772": {
+    "title": "Building on Webster Street, north of Grove Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-Webster.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010717~S0",
+    "width": 271,
+    "height": 400
+  },
+  "AAC-6426": {
+    "title": "Acme Brewery building at Webster and Grove streets",
+    "date": "1966 Nov. 1",
+    "years": [
+      1966,
+      1966
+    ],
+    "folder": "S.F. Businesses-Breweries-Acme.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021286~S0",
+    "width": 501,
+    "height": 400
+  },
+  "AAC-6461": {
+    "title": "California Brewing Company, Webster and Grove streets",
+    "date": "1966 Nov. 1",
+    "years": [
+      1966,
+      1966
+    ],
+    "folder": "S.F. Businesses-Breweries-California Brewing.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021321~S0",
+    "width": 501,
+    "height": 400
+  }
+}

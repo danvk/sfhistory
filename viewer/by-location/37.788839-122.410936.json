@@ -1,0 +1,26 @@
+{
+  "AAB-1920": {
+    "title": "Hotel Beresford located at 635 Sutter street",
+    "date": "1957 July 9",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Hotels-Beresford.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006961~S0",
+    "width": 293,
+    "height": 400
+  },
+  "AAB-1921": {
+    "title": "The White Horse Bar located in the Hotel Beresford",
+    "date": "1964 July 5",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Hotels-Beresford.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006962~S0",
+    "width": 494,
+    "height": 400
+  }
+}

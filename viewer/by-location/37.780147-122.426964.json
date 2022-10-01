@@ -1,0 +1,62 @@
+{
+  "AAB-3852": {
+    "title": "Golden Gate Avenue at Laguna Street",
+    "date": "1928",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Streets-Golden Gate Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008840~S0",
+    "width": 593,
+    "height": 400
+  },
+  "AAB-1474": {
+    "title": "Bethel A.M.E. Methodist Church, 916 Laguna St.",
+    "date": "1964 Aug. 24",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Churches-Methodist-Bethel A.M.E.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006521~S0",
+    "width": 411,
+    "height": 400
+  },
+  "AAC-1905": {
+    "title": "Demolition site at Laguna and Golden Gate",
+    "date": "1970 Nov.",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Districts-Western Addition-Slum Clearance.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1016801~S0",
+    "width": 499,
+    "height": 400
+  },
+  "AAC-1960": {
+    "title": "Cleared lot at Laguna and Golden Gate",
+    "date": "1970 Nov.",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Districts-Western Addition-Slum Clearance.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1016853~S0",
+    "width": 502,
+    "height": 400
+  },
+  "AAB-1473": {
+    "title": "Bethel A.M.E. Methodist Church",
+    "date": "1973 Aug. 1",
+    "years": [
+      1973,
+      1973
+    ],
+    "folder": "S.F. Churches-Methodist-Bethel A.M.E.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006520~S0",
+    "width": 505,
+    "height": 400
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "AAB-4552": {
+    "title": "McAllister Street, near Market, 1890",
+    "date": "1890",
+    "years": [
+      1890,
+      1890
+    ],
+    "folder": "S.F. Streets-McAllister-1890.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009528~S0",
+    "width": 513,
+    "height": 400
+  },
+  "AAB-4941": {
+    "title": "Intersection of Market and McAllister streets",
+    "date": "1897",
+    "years": [
+      1897,
+      1897
+    ],
+    "folder": "S.F. Streets-Market-1890's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009903~S0",
+    "width": 560,
+    "height": 400
+  },
+  "AAB-4577": {
+    "title": "Men working on sidewalk widening project at Market and McAllister streets",
+    "date": "197-",
+    "years": [
+      1970,
+      1979
+    ],
+    "folder": "S.F. Streets-McAllister-1970's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009552~S0",
+    "width": 408,
+    "height": 400
+  }
+}

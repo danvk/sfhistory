@@ -1,0 +1,26 @@
+{
+  "AAB-3662": {
+    "title": "Fell Street at Cole",
+    "date": "1930",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Fell.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008653~S0",
+    "width": 568,
+    "height": 400
+  },
+  "AAC-5733": {
+    "title": "Exterior of 1996 Fell Street",
+    "date": "1964 May",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Residences-1996 Fell.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020599~S0",
+    "width": 494,
+    "height": 400
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "AAB-2973": {
+    "title": "3000 block of Broderick Street",
+    "date": "1939 Dec. 7",
+    "years": [
+      1939,
+      1939
+    ],
+    "folder": "S.F. Streets-Broderick.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007984~S0",
+    "width": 492,
+    "height": 400
+  },
+  "AAB-4367": {
+    "title": "Southwest corner of Lombard and Broderick streets",
+    "date": "1939 Dec. 7",
+    "years": [
+      1939,
+      1939
+    ],
+    "folder": "S.F. Streets-Lombard-1930's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009345~S0",
+    "width": 491,
+    "height": 400
+  },
+  "AAB-4408": {
+    "title": "Lombard at Broderick Street",
+    "date": "1940 Apr. 1",
+    "years": [
+      1940,
+      1940
+    ],
+    "folder": "S.F. Streets-Lombard-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009386~S0",
+    "width": 488,
+    "height": 400
+  },
+  "AAB-4442": {
+    "title": "Lombard Street, looking east from Broderick",
+    "date": "1940 Dec. 12",
+    "years": [
+      1940,
+      1940
+    ],
+    "folder": "S.F. Streets-Lombard-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009420~S0",
+    "width": 665,
+    "height": 400
+  }
+}

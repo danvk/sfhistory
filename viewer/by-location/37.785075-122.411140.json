@@ -1,0 +1,26 @@
+{
+  "AAB-5536": {
+    "title": "Taylor Street north of Ellis",
+    "date": "1867",
+    "years": [
+      1867,
+      1867
+    ],
+    "folder": "S.F. Streets-Taylor-(pre 1906).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010487~S0",
+    "width": 510,
+    "height": 400
+  },
+  "AAD-5969": {
+    "title": "Airport bus terminal at Ellis and Taylor streets",
+    "date": "1982",
+    "years": [
+      1982,
+      1982
+    ],
+    "folder": "S.F. Terminals-Airlines.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1030734~S0",
+    "width": 500,
+    "height": 400
+  }
+}

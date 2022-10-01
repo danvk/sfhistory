@@ -1,0 +1,50 @@
+{
+  "aae-1220": {
+    "title": "San Francisco Fire Department - Hose Company No. 3 on 22nd and Folsom Street",
+    "date": "1885",
+    "years": [
+      1885,
+      1885
+    ],
+    "folder": "S.F. Fire Department-Fire Companies-Hose Company No. 3",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1034211~S0",
+    "width": 271,
+    "height": 400
+  },
+  "AAB-3700": {
+    "title": "Wynne's Pharmacy at 2599 Folsom Street",
+    "date": "ca. 1906",
+    "years": [
+      1905,
+      1907
+    ],
+    "folder": "S.F. Streets-Folsom.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008691~S0",
+    "width": 576,
+    "height": 400
+  },
+  "AAC-8133": {
+    "title": "Five men and a horse drawn carriage on the northeast corner of Folsom and 22nd streets",
+    "date": "ca. 1906",
+    "years": [
+      1905,
+      1907
+    ],
+    "folder": "S.F. Transportation-Horse Drawn Vehicles.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022989~S0",
+    "width": 554,
+    "height": 400
+  },
+  "AAC-8238": {
+    "title": "Train passing through 22nd & Folsom. 1907",
+    "date": "1907",
+    "years": [
+      1907,
+      1907
+    ],
+    "folder": "S.F. Transportation-Railroads-Early.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1023094~S0",
+    "width": 490,
+    "height": 400
+  }
+}

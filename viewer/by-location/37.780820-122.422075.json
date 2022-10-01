@@ -1,0 +1,26 @@
+{
+  "AAB-3848": {
+    "title": "Golden Gate Avenue at Franklin Street",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-Golden Gate Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008836~S0",
+    "width": 609,
+    "height": 400
+  },
+  "AAC-1883": {
+    "title": "Building at 43-45 Beideman Place, formerly 736-738 Franklin Street",
+    "date": "ca. 1974",
+    "years": [
+      1973,
+      1975
+    ],
+    "folder": "S.F. Districts-Western Addition-Houses Moved.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1016779~S0",
+    "width": 499,
+    "height": 400
+  }
+}

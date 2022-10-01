@@ -1,0 +1,38 @@
+{
+  "AAB-4657": {
+    "title": "Mission Street at Randall",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Mission-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009630~S0",
+    "width": 550,
+    "height": 400
+  },
+  "AAB-5151": {
+    "title": "Randall Street, near Mission",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Randall.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010110~S0",
+    "width": 567,
+    "height": 400
+  },
+  "AAC-8520": {
+    "title": "Market Street Railway Company line 14 streetcar at Mission and Randall",
+    "date": "1945",
+    "years": [
+      1945,
+      1945
+    ],
+    "folder": "S.F. Transportation-Streetcars-Lines-Market Street Railway-14 Line.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1023376~S0",
+    "width": 496,
+    "height": 400
+  }
+}

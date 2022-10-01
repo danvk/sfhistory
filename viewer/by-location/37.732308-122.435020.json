@@ -1,0 +1,38 @@
+{
+  "AAB-4737": {
+    "title": "Monterey Boulevard at San Jose and Joost",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Monterey Blvd.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009710~S0",
+    "width": 545,
+    "height": 400
+  },
+  "AAD-2700": {
+    "title": "Monterey Boulevard and Joost, looking northeast",
+    "date": "ca. 1930?",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Monterey Boulevard.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1027519~S0",
+    "width": 490,
+    "height": 400
+  },
+  "AAD-2701": {
+    "title": "Monterey Boulevard near Joost, looking east",
+    "date": "ca. 1930?",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Monterey Boulevard.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1027520~S0",
+    "width": 493,
+    "height": 400
+  }
+}

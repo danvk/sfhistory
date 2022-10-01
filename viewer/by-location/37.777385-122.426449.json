@@ -1,0 +1,26 @@
+{
+  "AAB-3934": {
+    "title": "Grove Street at Laguna",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Grove.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008921~S0",
+    "width": 604,
+    "height": 400
+  },
+  "AAB-4313": {
+    "title": "Laguna Street at Grove",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Laguna.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009291~S0",
+    "width": 601,
+    "height": 400
+  }
+}

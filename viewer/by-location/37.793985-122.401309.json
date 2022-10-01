@@ -1,0 +1,86 @@
+{
+  "AAB-5235": {
+    "title": "Sacramento Street, west of Sansome",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-Sacramento-N.D.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010193~S0",
+    "width": 385,
+    "height": 400
+  },
+  "AAC-4495": {
+    "title": "Federal Reserve Bank of San Francisco, Sacramento and Sansome streets",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Banks-Federal Reserve.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019365~S0",
+    "width": 320,
+    "height": 400
+  },
+  "AAC-4447": {
+    "title": "View of the intersection of Sansome and Sacramento streets, near the Federal Reserve Bank of San Francisco, looking northeast",
+    "date": "1921 May 29",
+    "years": [
+      1921,
+      1921
+    ],
+    "folder": "S.F. Banks-Federal Reserve.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019317~S0",
+    "width": 499,
+    "height": 400
+  },
+  "AAD-5978": {
+    "title": "Marin commuters at Greyhound terminal at Sansome and Sacramento streets",
+    "date": "1941 Mar. 1",
+    "years": [
+      1941,
+      1941
+    ],
+    "folder": "S.F. Terminals-Greyhound.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1030743~S0",
+    "width": 493,
+    "height": 400
+  },
+  "AAD-5979": {
+    "title": "Marin commuters at Greyhound terminal at Sansome and Sacramento streets",
+    "date": "1941 Mar. 1",
+    "years": [
+      1941,
+      1941
+    ],
+    "folder": "S.F. Terminals-Greyhound.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1030744~S0",
+    "width": 492,
+    "height": 400
+  },
+  "AAD-5980": {
+    "title": "Marin commuters at Greyhound terminal at Sansome and Sacramento streets",
+    "date": "1941 Mar. 1",
+    "years": [
+      1941,
+      1941
+    ],
+    "folder": "S.F. Terminals-Greyhound.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1030745~S0",
+    "width": 491,
+    "height": 400
+  },
+  "AAC-4498": {
+    "title": "Federal Reserve Bank, Sansome & Sacramento Sts.",
+    "date": "1952",
+    "years": [
+      1952,
+      1952
+    ],
+    "folder": "S.F. Banks-Federal Reserve.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019368~S0",
+    "width": 273,
+    "height": 400
+  }
+}

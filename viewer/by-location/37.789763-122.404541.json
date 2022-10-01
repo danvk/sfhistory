@@ -1,0 +1,26 @@
+{
+  "AAB-5547": {
+    "title": "224 Sutter Street",
+    "date": "188-",
+    "years": [
+      1880,
+      1889
+    ],
+    "folder": "S.F. Streets - Sutter - 1870-80's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010498~S0",
+    "width": 300,
+    "height": 400
+  },
+  "AAB-1834": {
+    "title": "Gobey's Saloon, 228 Sutter Street",
+    "date": "1886",
+    "years": [
+      1886,
+      1886
+    ],
+    "folder": "S.F. Bars-Gobey's Saloon.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006877~S0",
+    "width": 299,
+    "height": 400
+  }
+}

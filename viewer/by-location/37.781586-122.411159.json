@@ -1,0 +1,38 @@
+{
+  "AAB-1176": {
+    "title": "Crystal Palace Bowl, 1032 Market St.",
+    "date": "1946 May 20",
+    "years": [
+      1946,
+      1946
+    ],
+    "folder": "S.F. Night Clubs-Crystal Bowl.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006225~S0",
+    "width": 583,
+    "height": 400
+  },
+  "AAF-0672": {
+    "title": "Regal Theater, 1046 Market graphic",
+    "date": "1972 Sept. 3",
+    "years": [
+      1972,
+      1972
+    ],
+    "folder": "S.F. Theaters-Regal",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1038800~S0",
+    "width": 269,
+    "height": 400
+  },
+  "AAF-0673": {
+    "title": "Regal Theater, 1046 Market graphic",
+    "date": "1990 Nov. 2",
+    "years": [
+      1990,
+      1990
+    ],
+    "folder": "Sheet: S.F. Theaters-Regal",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1038801~S0",
+    "width": 592,
+    "height": 400
+  }
+}

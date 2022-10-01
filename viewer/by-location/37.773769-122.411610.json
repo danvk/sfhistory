@@ -1,0 +1,38 @@
+{
+  "AAB-3684": {
+    "title": "Folsom at 9th Street",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Folsom.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008675~S0",
+    "width": 580,
+    "height": 400
+  },
+  "AAB-3685": {
+    "title": "Folsom at 9th Street",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Folsom.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008676~S0",
+    "width": 560,
+    "height": 400
+  },
+  "AAB-5880": {
+    "title": "Ninth and Folsom Street",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-9th.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010825~S0",
+    "width": 573,
+    "height": 400
+  }
+}

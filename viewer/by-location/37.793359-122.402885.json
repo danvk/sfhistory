@@ -1,0 +1,50 @@
+{
+  "AAB-7333": {
+    "title": "Montgomery Street, between Sacramento and California streets",
+    "date": "1865",
+    "years": [
+      1865,
+      1865
+    ],
+    "folder": "S.F. Streets-Montgomery-1865.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1012260~S0",
+    "width": 507,
+    "height": 400
+  },
+  "AAB-7364": {
+    "title": "East Side of Montgomery between Sacramento and California. 1867",
+    "date": "1867",
+    "years": [
+      1867,
+      1867
+    ],
+    "folder": "S.F. Streets-Montgomery-1860's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1012291~S0",
+    "width": 485,
+    "height": 400
+  },
+  "AAB-7362": {
+    "title": "Montgomery street, between California and Sacramento streets. 1868.",
+    "date": "1868",
+    "years": [
+      1868,
+      1868
+    ],
+    "folder": "S.F. Streets-Montgomery-1860's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1012289~S0",
+    "width": 312,
+    "height": 400
+  },
+  "AAB-7318": {
+    "title": "429 Montgomery street. 1884",
+    "date": "1884",
+    "years": [
+      1884,
+      1884
+    ],
+    "folder": "S.F. Streets-Montgomery-1880's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1012246~S0",
+    "width": 480,
+    "height": 400
+  }
+}

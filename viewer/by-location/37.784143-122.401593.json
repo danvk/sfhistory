@@ -1,0 +1,26 @@
+{
+  "AAB-3989": {
+    "title": "Howard Street between 3rd and 4th",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Howard-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008976~S0",
+    "width": 591,
+    "height": 400
+  },
+  "AAB-4012": {
+    "title": "Howard Street between Third and Fourth streets",
+    "date": "1960 Jan. 7",
+    "years": [
+      1960,
+      1960
+    ],
+    "folder": "S.F. Streets-Howard-1960's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008999~S0",
+    "width": 509,
+    "height": 400
+  }
+}

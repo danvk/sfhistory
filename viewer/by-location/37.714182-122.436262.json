@@ -1,0 +1,26 @@
+{
+  "AAB-3784": {
+    "title": "Geneva avenue near Naples street",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Geneva Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008773~S0",
+    "width": 621,
+    "height": 400
+  },
+  "AAB-1869": {
+    "title": "Tommy's Tavern, 1196 Geneva Avenue",
+    "date": "1944",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Bars-Tommy's Tavern.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006911~S0",
+    "width": 554,
+    "height": 400
+  }
+}

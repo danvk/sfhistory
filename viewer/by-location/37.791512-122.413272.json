@@ -1,0 +1,50 @@
+{
+  "AAC-5664": {
+    "title": "W. Crocker's Residence, S. F., Cal.",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Residences-1150 California (W. H. Crocker).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020530~S0",
+    "width": 613,
+    "height": 400
+  },
+  "AAC-5662": {
+    "title": "ARTISTIC HOMES OF CALIFORNIA, Residence of Mr. ROBERT SHERWOOD, 1123 California Street, S. F.",
+    "date": "ca. 1887",
+    "years": [
+      1886,
+      1888
+    ],
+    "folder": "S.F. Residences-1123 California.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020528~S0",
+    "width": 512,
+    "height": 400
+  },
+  "AAC-5663": {
+    "title": "ARTISTIC HOMES OF CALIFORNIA - Residence of Mr. W. H. CROCKER, N. E. Corner California and Jones Streets.",
+    "date": "ca. 1889",
+    "years": [
+      1888,
+      1890
+    ],
+    "folder": "S.F. Residences-1150 California (W. H. Crocker).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020529~S0",
+    "width": 556,
+    "height": 400
+  },
+  "AAC-4986": {
+    "title": "Masonic Memorial Temple at 1111 California street",
+    "date": "1964 July 2",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Masonic Memorial Temple (California & Taylor).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019855~S0",
+    "width": 496,
+    "height": 400
+  }
+}

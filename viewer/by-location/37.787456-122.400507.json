@@ -1,0 +1,86 @@
+{
+  "AAB-4765": {
+    "title": "New Montgomery Street, corner of Howard. 1880",
+    "date": "1880",
+    "years": [
+      1880,
+      1880
+    ],
+    "folder": "S.F. Streets-New Montgomery-1880's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009737~S0",
+    "width": 476,
+    "height": 400
+  },
+  "AAC-4626": {
+    "title": "BUSINESS BLOCKS OF SAN FRANCISCO. WELLS, FARGO & CO.'S BUILDING, N. E. Corner New Montgomery and Mission Streets.",
+    "date": "ca. 1889",
+    "years": [
+      1888,
+      1890
+    ],
+    "folder": "S.F. Banks-Wells Fargo (Pre 1906).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019496~S0",
+    "width": 556,
+    "height": 400
+  },
+  "AAC-2850": {
+    "title": "Ruins of the Crossley Building at the northeast corner of Montgomery and Mission Streets, after the 1906 earthquake and fire",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Crossley Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1017734~S0",
+    "width": 585,
+    "height": 400
+  },
+  "AAC-2851": {
+    "title": "The Crossley Building burning after the 1906 earthquake",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Crossley Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1017735~S0",
+    "width": 580,
+    "height": 400
+  },
+  "AAC-4207": {
+    "title": "Ruins of the Crossley and Rialto buildings at the intersection of New Montgomery and Mission streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Rialto Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019077~S0",
+    "width": 537,
+    "height": 400
+  },
+  "AAC-4396": {
+    "title": "Crocker-Citizens National Bank's data processing center at New Montgomery and Mission streets",
+    "date": "1964 Aug. 10",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Banks-Crocker-Citizens.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019266~S0",
+    "width": 497,
+    "height": 400
+  },
+  "AAC-4648": {
+    "title": "Wells Fargo Bank at 100 New Montgomery Street",
+    "date": "1964 Aug. 10",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Banks-Wells Fargo.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019518~S0",
+    "width": 324,
+    "height": 400
+  }
+}

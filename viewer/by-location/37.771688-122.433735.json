@@ -1,0 +1,26 @@
+{
+  "AAB-3952": {
+    "title": "Haight Street at Pierce",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Haight-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008939~S0",
+    "width": 587,
+    "height": 400
+  },
+  "AAB-5004": {
+    "title": "Pierce Street at Haight",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Pierce.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009966~S0",
+    "width": 565,
+    "height": 400
+  }
+}

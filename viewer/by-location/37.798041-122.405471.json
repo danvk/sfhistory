@@ -1,0 +1,50 @@
+{
+  "AAB-4252": {
+    "title": "Kearny Street, south from Broadway, 1870",
+    "date": "1870",
+    "years": [
+      1870,
+      1870
+    ],
+    "folder": "S.F. Streets-Kearny-1870's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009230~S0",
+    "width": 472,
+    "height": 400
+  },
+  "AAB-2950": {
+    "title": "Kearny & Broadway. 1910",
+    "date": "1910",
+    "years": [
+      1910,
+      1910
+    ],
+    "folder": "S.F. Streets-Broadway-1910's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007961~S0",
+    "width": 589,
+    "height": 400
+  },
+  "AAB-2955": {
+    "title": "Broadway at Kearny. 1929",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-Broadway-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007966~S0",
+    "width": 600,
+    "height": 400
+  },
+  "AAB-4290": {
+    "title": "View of Kearny Street from Broadway",
+    "date": "195-?",
+    "years": [
+      1950,
+      1959
+    ],
+    "folder": "S.F. Streets-Kearny-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009268~S0",
+    "width": 310,
+    "height": 400
+  }
+}

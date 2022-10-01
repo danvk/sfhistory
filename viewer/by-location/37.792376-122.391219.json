@@ -1,0 +1,26 @@
+{
+  "AAB-3996": {
+    "title": "Howard Street at Embarcadero",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Howard-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008983~S0",
+    "width": 579,
+    "height": 400
+  },
+  "AAB-3530": {
+    "title": "Embarcadero at Howard Street",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Embarcadero-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008533~S0",
+    "width": 591,
+    "height": 400
+  }
+}

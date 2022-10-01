@@ -1,0 +1,50 @@
+{
+  "AAB-3843": {
+    "title": "Golden Gate Avenue at Steiner Street",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Golden Gate Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008831~S0",
+    "width": 590,
+    "height": 400
+  },
+  "AAB-3851": {
+    "title": "Golden Gate Avenue at Steiner Street",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Golden Gate Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008839~S0",
+    "width": 578,
+    "height": 400
+  },
+  "AAB-5462": {
+    "title": "Steiner Street at Golden Gate Avenue",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Steiner.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010413~S0",
+    "width": 573,
+    "height": 400
+  },
+  "AAB-5463": {
+    "title": "Steiner Street at Golden Gate Avenue",
+    "date": "1933",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Steiner.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010414~S0",
+    "width": 568,
+    "height": 400
+  }
+}

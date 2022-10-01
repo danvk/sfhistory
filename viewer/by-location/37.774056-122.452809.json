@@ -1,0 +1,38 @@
+{
+  "AAB-3937": {
+    "title": "Grove Street at Shrader",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Grove.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008924~S0",
+    "width": 604,
+    "height": 400
+  },
+  "AAB-5312": {
+    "title": "Shrader Street at Grove",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Shrader.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010265~S0",
+    "width": 604,
+    "height": 400
+  },
+  "AAD-0385": {
+    "title": "St. Mary's Hospital, 2270 Grove Street",
+    "date": "1964 Aug. 25",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Hospitals-St. Mary's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1025234~S0",
+    "width": 496,
+    "height": 400
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "AAC-3200": {
+    "title": "9th and Brannan Streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Brannan Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018077~S0",
+    "width": 528,
+    "height": 400
+  },
+  "AAB-5878": {
+    "title": "Ninth and Brannan Street",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-9th.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010823~S0",
+    "width": 585,
+    "height": 400
+  }
+}

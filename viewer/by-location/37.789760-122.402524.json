@@ -1,0 +1,38 @@
+{
+  "AAC-4935": {
+    "title": "Hunter-Dulin Building, 111 Sutter street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Hunter-Dulin Building (111 Sutter).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019804~S0",
+    "width": 323,
+    "height": 400
+  },
+  "AAC-4937": {
+    "title": "Hunter-Dulin Building, 111 Sutter street",
+    "date": "1928 Mar. 1",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Hunter-Dulin Building (111 Sutter).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019806~S0",
+    "width": 191,
+    "height": 400
+  },
+  "AAC-4936": {
+    "title": "Hunter-Dulin Building, 111 Sutter street",
+    "date": "1964 July 5",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Hunter-Dulin Building (111 Sutter).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019805~S0",
+    "width": 493,
+    "height": 400
+  }
+}

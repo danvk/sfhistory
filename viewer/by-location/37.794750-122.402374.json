@@ -1,0 +1,38 @@
+{
+  "AAC-4582": {
+    "title": "Swiss American Bank at Clay and Leidesdorff street",
+    "date": "1876",
+    "years": [
+      1876,
+      1876
+    ],
+    "folder": "S.F. Banks-Swiss American Bank.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019452~S0",
+    "width": 350,
+    "height": 400
+  },
+  "AAC-4378": {
+    "title": "Bank building at the corner of Leidesdorff and Clay",
+    "date": "ca. 1896",
+    "years": [
+      1895,
+      1897
+    ],
+    "folder": "S.F. Bank Bldg.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019248~S0",
+    "width": 400,
+    "height": 508
+  },
+  "AAC-4581": {
+    "title": "Swiss American Bank. Leidesdorff and Clay streets. Circa, 1900",
+    "date": "ca.1900",
+    "years": [
+      1899,
+      1901
+    ],
+    "folder": "S.F. Banks-Swiss American Bank.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019451~S0",
+    "width": 281,
+    "height": 400
+  }
+}

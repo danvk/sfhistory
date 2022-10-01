@@ -1,0 +1,26 @@
+{
+  "AAB-6095": {
+    "title": "Market at Sanchez Street",
+    "date": "191-",
+    "years": [
+      1910,
+      1919
+    ],
+    "folder": "S.F. Streets-Market-1910's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011038~S0",
+    "width": 502,
+    "height": 400
+  },
+  "AAB-5231": {
+    "title": "Sanchez at Market",
+    "date": "1928",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Streets-Sanchez.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010189~S0",
+    "width": 566,
+    "height": 400
+  }
+}

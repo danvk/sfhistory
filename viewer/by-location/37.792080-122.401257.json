@@ -1,0 +1,26 @@
+{
+  "AAC-5006": {
+    "title": "BUSINESS BLOCKS OF SAN FRANCISCO. McCreery's Building, 310 Pine Street.",
+    "date": "ca. 1888",
+    "years": [
+      1887,
+      1889
+    ],
+    "folder": "S.F. McCreery Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019875~S0",
+    "width": 313,
+    "height": 400
+  },
+  "AAC-5008": {
+    "title": "McCreery Building, 310 Pine Street.. October, 1888",
+    "date": "1888 Oct.",
+    "years": [
+      1888,
+      1888
+    ],
+    "folder": "S.F. McCreery Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1019877~S0",
+    "width": 280,
+    "height": 400
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "AAB-5418": {
+    "title": "Northwest corner of Sansome and Sutter streets",
+    "date": "1883",
+    "years": [
+      1883,
+      1883
+    ],
+    "folder": "S.F. Streets - Sansome - 1870-80's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010370~S0",
+    "width": 510,
+    "height": 400
+  },
+  "AAB-5325": {
+    "title": "Sansome and Sutter Street",
+    "date": "1890",
+    "years": [
+      1890,
+      1890
+    ],
+    "folder": "S.F. Streets-Sansome-1890's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010278~S0",
+    "width": 610,
+    "height": 400
+  },
+  "AAC-3578": {
+    "title": "Sansome and Sutter Street in ruins",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Sansome Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018450~S0",
+    "width": 526,
+    "height": 400
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "AAC-5179": {
+    "title": "Russ Building, 235 Montgomery street",
+    "date": "1926 Oct. 21",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Russ Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020048~S0",
+    "width": 275,
+    "height": 400
+  },
+  "AAC-5174": {
+    "title": "Russ Building, 235 Montgomery street",
+    "date": "1934 May 3",
+    "years": [
+      1934,
+      1934
+    ],
+    "folder": "S.F. Russ Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020043~S0",
+    "width": 154,
+    "height": 400
+  },
+  "AAC-5173": {
+    "title": "Russ Building, 235 Montgomery street",
+    "date": "1934 Aug. 21",
+    "years": [
+      1934,
+      1934
+    ],
+    "folder": "S.F. Russ Building.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020042~S0",
+    "width": 181,
+    "height": 400
+  }
+}

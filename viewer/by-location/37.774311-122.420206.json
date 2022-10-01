@@ -1,0 +1,38 @@
+{
+  "AAC-5133": {
+    "title": "Oriel Block, Page and Market streets",
+    "date": "1888 May",
+    "years": [
+      1888,
+      1888
+    ],
+    "folder": "S.F. Oriel Block.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020002~S0",
+    "width": 317,
+    "height": 400
+  },
+  "AAB-6353": {
+    "title": "Market Street at 12th",
+    "date": "1944 Apr. 15",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Streets-Market-1944.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011294~S0",
+    "width": 964,
+    "height": 400
+  },
+  "AAB-6349": {
+    "title": "Market St. East from 12th St.",
+    "date": "1944 ",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Streets-Market-1944.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1011290~S0",
+    "width": 501,
+    "height": 400
+  }
+}

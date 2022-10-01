@@ -1,0 +1,74 @@
+{
+  "AAB-3988": {
+    "title": "Howard Street at 7th",
+    "date": "1926",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Howard-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008975~S0",
+    "width": 581,
+    "height": 400
+  },
+  "AAB-4005": {
+    "title": "Howard Street at 7th",
+    "date": "1944 Nov. 25",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Streets-Howard-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008992~S0",
+    "width": 769,
+    "height": 400
+  },
+  "AAB-5896": {
+    "title": "Elderly blind gentleman trying to cross an obstructed pedestrian walkway at Seventh and Howard streets",
+    "date": "1948 Mar. 13",
+    "years": [
+      1948,
+      1948
+    ],
+    "folder": "S.F. Streets-7th.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010841~S0",
+    "width": 334,
+    "height": 400
+  },
+  "aad-8748": {
+    "title": "Blindcraft Building on Howard Street",
+    "date": "1948 Aug. 20",
+    "years": [
+      1948,
+      1948
+    ],
+    "folder": "S.F. Blind.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1035105~S0",
+    "width": 363,
+    "height": 400
+  },
+  "aad-8747": {
+    "title": "Blindcraft Building on Howard Street",
+    "date": "1950",
+    "years": [
+      1950,
+      1950
+    ],
+    "folder": "S.F. Blind.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1035104~S0",
+    "width": 489,
+    "height": 400
+  },
+  "aad-8746": {
+    "title": "San Francisco Lighthouse for the Blind, Seventh and Howard streets",
+    "date": "1964 Aug. 17",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Blind.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1035103~S0",
+    "width": 492,
+    "height": 400
+  }
+}

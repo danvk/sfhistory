@@ -1,0 +1,62 @@
+{
+  "AAB-4223": {
+    "title": "Kearny and Pacific street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-Kearny-N.D.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009201~S0",
+    "width": 516,
+    "height": 400
+  },
+  "AAC-5199": {
+    "title": "Sentinel Building at corner of Kearny and Pacific street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Sentinel Building (SEE ALSO: Columbus Tower).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020068~S0",
+    "width": 523,
+    "height": 400
+  },
+  "AAB-4183": {
+    "title": "Kearny street, north of Pacific. 1892?",
+    "date": "189-",
+    "years": [
+      1890,
+      1899
+    ],
+    "folder": "S.F. Streets-Kearny-1890's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009161~S0",
+    "width": 499,
+    "height": 400
+  },
+  "AAB-3418": {
+    "title": "Pacific Avenue at Kearny Street",
+    "date": "1964 June 18",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Streets-Pacific Avenue-1960's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008421~S0",
+    "width": 486,
+    "height": 400
+  },
+  "AAB-9569": {
+    "title": "North Beach district at intersection of Pacific and Kearny",
+    "date": "1969 June",
+    "years": [
+      1969,
+      1969
+    ],
+    "folder": "S.F. Districts-North Beach.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1014481~S0",
+    "width": 320,
+    "height": 400
+  }
+}

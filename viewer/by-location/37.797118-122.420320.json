@@ -1,0 +1,38 @@
+{
+  "AAB-4341": {
+    "title": "Larkin and Vallejo street",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Larkin.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009319~S0",
+    "width": 552,
+    "height": 400
+  },
+  "AAB-4342": {
+    "title": "Larkin Street at Vallejo",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Larkin.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009320~S0",
+    "width": 553,
+    "height": 400
+  },
+  "AAB-5643": {
+    "title": "Vallejo Street at Larkin",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Vallejo.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010592~S0",
+    "width": 564,
+    "height": 400
+  }
+}

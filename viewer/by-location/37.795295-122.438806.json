@@ -1,0 +1,38 @@
+{
+  "AAC-5959": {
+    "title": "2727 Pierce Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Residences-2727 Pierce.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020824~S0",
+    "width": 273,
+    "height": 400
+  },
+  "AAC-5961": {
+    "title": "2727 Pierce Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Residences-2727 Pierce.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020826~S0",
+    "width": 279,
+    "height": 400
+  },
+  "AAC-5960": {
+    "title": "2727 Pierce Street",
+    "date": "1964 Oct.",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Residences-2727 Pierce.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020825~S0",
+    "width": 398,
+    "height": 400
+  }
+}

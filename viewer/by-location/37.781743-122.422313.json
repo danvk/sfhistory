@@ -1,0 +1,50 @@
+{
+  "AAC-1878": {
+    "title": "Exterior of 743 Turk Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Districts-Western Addition-Houses Moved.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1016774~S0",
+    "width": 321,
+    "height": 400
+  },
+  "AAB-3584": {
+    "title": "Franklin at Turk street",
+    "date": "1928",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Streets-Franklin.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008576~S0",
+    "width": 576,
+    "height": 400
+  },
+  "AAB-3585": {
+    "title": "Franklin at Turk street",
+    "date": "1928",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Streets-Franklin.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008577~S0",
+    "width": 593,
+    "height": 400
+  },
+  "AAB-5561": {
+    "title": "Turk Street at Franklin",
+    "date": "1928",
+    "years": [
+      1928,
+      1928
+    ],
+    "folder": "S.F. Streets-Turk.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010512~S0",
+    "width": 576,
+    "height": 400
+  }
+}

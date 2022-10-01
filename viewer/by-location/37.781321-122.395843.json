@@ -1,0 +1,26 @@
+{
+  "AAB-5806": {
+    "title": "Third and Bryant Street",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-3rd-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010751~S0",
+    "width": 582,
+    "height": 400
+  },
+  "AAB-5820": {
+    "title": "Third and Bryant streets",
+    "date": "1931",
+    "years": [
+      1931,
+      1931
+    ],
+    "folder": "S.F. Streets-3rd-1930's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010765~S0",
+    "width": 578,
+    "height": 400
+  }
+}

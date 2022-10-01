@@ -1,0 +1,26 @@
+{
+  "AAA-4326": {
+    "title": "Anza Street at Sixth Avenue, looking west, 1930",
+    "date": "1930",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Anza.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1000015~S0",
+    "width": 558,
+    "height": 400
+  },
+  "AAA-4329": {
+    "title": "Anza Street at Sixth Avenue, 1930",
+    "date": "1930",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Anza.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1000018~S0",
+    "width": 567,
+    "height": 400
+  }
+}

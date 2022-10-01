@@ -1,0 +1,38 @@
+{
+  "AAB-5240": {
+    "title": "San Bruno and Silver Avenue",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-San Bruno Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010198~S0",
+    "width": 555,
+    "height": 400
+  },
+  "AAB-5251": {
+    "title": "San Bruno and Silver Avenue",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-San Bruno Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010208~S0",
+    "width": 569,
+    "height": 400
+  },
+  "AAB-5248": {
+    "title": "San Bruno and Silver Avenue",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-San Bruno Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010206~S0",
+    "width": 555,
+    "height": 400
+  }
+}

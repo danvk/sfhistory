@@ -1,0 +1,26 @@
+{
+  "AAD-2696": {
+    "title": "Chenery near Chilton, looking east",
+    "date": "-1922",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Streets-Chenery.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1027515~S0",
+    "width": 602,
+    "height": 400
+  },
+  "AAB-8712": {
+    "title": "Glen Park, Chilton Avenue looking south from Chenery",
+    "date": "1970",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Streets-Chilton Avenue",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1013630~S0",
+    "width": 491,
+    "height": 400
+  }
+}

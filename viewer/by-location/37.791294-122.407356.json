@@ -1,0 +1,50 @@
+{
+  "AAB-4957": {
+    "title": "Pine street, east of Stockton. 1865?",
+    "date": "186-",
+    "years": [
+      1860,
+      1869
+    ],
+    "folder": "S.F. Streets-Pine-1860's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009919~S0",
+    "width": 491,
+    "height": 400
+  },
+  "AAB-5358": {
+    "title": "East side of Stockton, north from Pine Street",
+    "date": "1905 Jan. 29",
+    "years": [
+      1905,
+      1905
+    ],
+    "folder": "S.F. Streets-Stockton-1900's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010310~S0",
+    "width": 501,
+    "height": 400
+  },
+  "AAC-3477": {
+    "title": "View of earthquake and fire damage from Pine and Stockton streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Pine Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018350~S0",
+    "width": 537,
+    "height": 400
+  },
+  "AAC-3895": {
+    "title": "Center of S. F., seen from Stockton & Pine Sts.",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Districts-Downtown.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018767~S0",
+    "width": 566,
+    "height": 400
+  }
+}

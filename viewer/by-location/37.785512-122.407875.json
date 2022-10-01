@@ -1,0 +1,74 @@
+{
+  "AAC-6371": {
+    "title": "Ben Adler, 101 Powell Street",
+    "date": "189-",
+    "years": [
+      1890,
+      1899
+    ],
+    "folder": "S.F. Businesses-Ben Adler.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021231~S0",
+    "width": 495,
+    "height": 400
+  },
+  "AAC-3974": {
+    "title": "Golden West Hotel, located on Ellis and Powell streets, in ruins",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Hotels-Golden West.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018845~S0",
+    "width": 562,
+    "height": 400
+  },
+  "AAB-3509": {
+    "title": "Ellis street near Powell",
+    "date": "ca. 1909",
+    "years": [
+      1908,
+      1910
+    ],
+    "folder": "S.F. Streets-Ellis.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008512~S0",
+    "width": 529,
+    "height": 400
+  },
+  "AAB-3510": {
+    "title": "Ellis street near Powell",
+    "date": "ca. 1909",
+    "years": [
+      1908,
+      1910
+    ],
+    "folder": "S.F. Streets-Ellis.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008513~S0",
+    "width": 527,
+    "height": 400
+  },
+  "aad-8996": {
+    "title": "View of Powell Street looking north from near Ellis",
+    "date": "1957 Feb. 27",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Streets-Powell-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1035710~S0",
+    "width": 236,
+    "height": 400
+  },
+  "AAB-5211": {
+    "title": "Construction on Powell Street at Ellis",
+    "date": "1973",
+    "years": [
+      1973,
+      1973
+    ],
+    "folder": "S.F. Streets-Powell-1970's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010169~S0",
+    "width": 504,
+    "height": 400
+  }
+}

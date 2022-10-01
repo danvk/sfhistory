@@ -1,0 +1,26 @@
+{
+  "AAC-5638": {
+    "title": "Yankee Building located on the south west corner of Pine and Front street",
+    "date": "1880",
+    "years": [
+      1880,
+      1880
+    ],
+    "folder": "S.F. Yankee Block.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020504~S0",
+    "width": 511,
+    "height": 400
+  },
+  "AAC-7158": {
+    "title": "Langley and Michaels, Front and Pine streets",
+    "date": "1880",
+    "years": [
+      1880,
+      1880
+    ],
+    "folder": "S.F. Businesses-Langley & Michaels.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022015~S0",
+    "width": 317,
+    "height": 400
+  }
+}

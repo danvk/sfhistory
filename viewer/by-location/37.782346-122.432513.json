@@ -1,0 +1,38 @@
+{
+  "AAB-3559": {
+    "title": "Fillmore street, north from Ellis street",
+    "date": "190-",
+    "years": [
+      1900,
+      1909
+    ],
+    "folder": "S.F. Streets-Fillmore-1900's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008562~S0",
+    "width": 514,
+    "height": 400
+  },
+  "AAB-3506": {
+    "title": "Ellis at Fillmore street",
+    "date": "1908 May 23",
+    "years": [
+      1908,
+      1908
+    ],
+    "folder": "S.F. Streets-Ellis.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008509~S0",
+    "width": 518,
+    "height": 400
+  },
+  "AAB-3521": {
+    "title": "Scene of a crime on 1635 Ellis street",
+    "date": "1930 June 4",
+    "years": [
+      1930,
+      1930
+    ],
+    "folder": "S.F. Streets-Ellis.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008524~S0",
+    "width": 513,
+    "height": 400
+  }
+}

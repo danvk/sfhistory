@@ -1,0 +1,26 @@
+{
+  "AAB-3628": {
+    "title": "Fulton street at 12th avenue",
+    "date": "1904",
+    "years": [
+      1904,
+      1904
+    ],
+    "folder": "S.F. Streets-Fulton.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008619~S0",
+    "width": 511,
+    "height": 400
+  },
+  "AAC-8616": {
+    "title": "Three conductors standing beside United Railroad streetcar at 12th Avenue and Fulton Street",
+    "date": "1912",
+    "years": [
+      1912,
+      1912
+    ],
+    "folder": "S.F. Transportation-Streetcars-Lines-United Railroads.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1023472~S0",
+    "width": 607,
+    "height": 400
+  }
+}

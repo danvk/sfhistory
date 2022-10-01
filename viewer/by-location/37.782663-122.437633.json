@@ -1,0 +1,26 @@
+{
+  "AAB-4826": {
+    "title": "O'Farrell Street at Scott",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-O'Farrell-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009791~S0",
+    "width": 552,
+    "height": 400
+  },
+  "AAB-5308": {
+    "title": "Scott Street at O'Farrell",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Scott.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010261~S0",
+    "width": 583,
+    "height": 400
+  }
+}

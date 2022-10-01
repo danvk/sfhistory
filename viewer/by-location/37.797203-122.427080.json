@@ -1,0 +1,38 @@
+{
+  "AAC-3136": {
+    "title": "Refugee Camp at Green and Gough Streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Refugee Camps-Miscellaneous.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018013~S0",
+    "width": 519,
+    "height": 400
+  },
+  "AAC-3726": {
+    "title": "People cooking at street kitchens at Green and Gough streets",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Refugees-Street Kitchens.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018598~S0",
+    "width": 501,
+    "height": 400
+  },
+  "AAC-3768": {
+    "title": "Refugees washing their laundry at Gough and Green Street",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Refugees-Laundry.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018640~S0",
+    "width": 499,
+    "height": 400
+  }
+}

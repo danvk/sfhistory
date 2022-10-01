@@ -1,0 +1,26 @@
+{
+  "AAC-3258": {
+    "title": "Howard Street near 15th Street",
+    "date": "1906",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Streets-Howard Street.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1018134~S0",
+    "width": 506,
+    "height": 400
+  },
+  "AAB-3994": {
+    "title": "Howard Street at 15th",
+    "date": "1929",
+    "years": [
+      1929,
+      1929
+    ],
+    "folder": "S.F. Streets-Howard-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008981~S0",
+    "width": 577,
+    "height": 400
+  }
+}

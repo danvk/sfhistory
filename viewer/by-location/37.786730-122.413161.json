@@ -1,0 +1,26 @@
+{
+  "AAB-4133": {
+    "title": "Scene of a bank hold up on Jones and Geary street",
+    "date": "1933 Dec. 18",
+    "years": [
+      1933,
+      1933
+    ],
+    "folder": "S.F. Streets-Jones.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009118~S0",
+    "width": 358,
+    "height": 400
+  },
+  "AAC-7791": {
+    "title": "Scene of cable car accident at Jones and Geary streets",
+    "date": "1943 Jan. 29",
+    "years": [
+      1943,
+      1943
+    ],
+    "folder": "S.F. Transportation-Cable Cars-Accidents.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022648~S0",
+    "width": 605,
+    "height": 400
+  }
+}

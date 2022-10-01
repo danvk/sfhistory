@@ -1,0 +1,26 @@
+{
+  "AAE-1000": {
+    "title": "Union College.  Southeast corner Second and Bryant streets.  1865",
+    "date": "1865",
+    "years": [
+      1865,
+      1865
+    ],
+    "folder": "S.F. Colleges-Union College.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1033795~S0",
+    "width": 488,
+    "height": 400
+  },
+  "AAD-0390": {
+    "title": "Northeast corner of Second and Bryant streets",
+    "date": "1867",
+    "years": [
+      1867,
+      1867
+    ],
+    "folder": "S.F. Hospitals-St. Mary's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1025239~S0",
+    "width": 503,
+    "height": 400
+  }
+}

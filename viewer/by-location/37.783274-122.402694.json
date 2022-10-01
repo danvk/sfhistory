@@ -1,0 +1,62 @@
+{
+  "AAB-3991": {
+    "title": "Howard Street at 4th",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-Howard-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008978~S0",
+    "width": 585,
+    "height": 400
+  },
+  "AAB-2422": {
+    "title": "Sieber Hotel located at 744 Howard Street",
+    "date": "1955 Jan. 25",
+    "years": [
+      1955,
+      1955
+    ],
+    "folder": "S.F. Hotels-Sieber.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007434~S0",
+    "width": 471,
+    "height": 400
+  },
+  "AAB-1978": {
+    "title": "Demolition halted at the Hotel Dewey located at Fourth and Howard streets",
+    "date": "1960 Mar. 13",
+    "years": [
+      1960,
+      1960
+    ],
+    "folder": "S.F. Hotels-Dewey.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007018~S0",
+    "width": 301,
+    "height": 400
+  },
+  "AAB-1977": {
+    "title": "Hotel Dewey demolition",
+    "date": "1960 Mar.26",
+    "years": [
+      1960,
+      1960
+    ],
+    "folder": "S.F. Hotels-Dewey.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007017~S0",
+    "width": 326,
+    "height": 400
+  },
+  "AAB-2229": {
+    "title": "Mars Hotel at Fourth and Howard streets",
+    "date": "1963 Nov. 14",
+    "years": [
+      1963,
+      1963
+    ],
+    "folder": "S.F. Hotels-Mars Hotel.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1007241~S0",
+    "width": 322,
+    "height": 400
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "AAC-1834": {
+    "title": "View of San Francisco waterfront from Vallejo and Battery streets",
+    "date": "1867",
+    "years": [
+      1867,
+      1867
+    ],
+    "folder": "S.F. Districts-Waterfront-1867.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1015703~S0",
+    "width": 492,
+    "height": 400
+  },
+  "AAC-6304": {
+    "title": "Associated General Contractors, 850 Battery Street",
+    "date": "1964 Aug. 16",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Businesses-Associated General Contractors.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1021165~S0",
+    "width": 500,
+    "height": 400
+  },
+  "AAC-7232": {
+    "title": "Manning's Bakery, 901 Battery Street",
+    "date": "1964 Aug. 16",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Businesses-Manning's Bakery.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1022089~S0",
+    "width": 497,
+    "height": 400
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "AAB-3098": {
+    "title": "California street, between Montgomery and Sansome. 1867",
+    "date": "1867",
+    "years": [
+      1867,
+      1867
+    ],
+    "folder": "S.F. Streets-California-1860's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008107~S0",
+    "width": 475,
+    "height": 400
+  },
+  "AAB-4361": {
+    "title": "Leidesdorff Street, corner of California, 1874",
+    "date": "1874",
+    "years": [
+      1874,
+      1874
+    ],
+    "folder": "S.F. Streets-Leidesdorff.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009339~S0",
+    "width": 303,
+    "height": 400
+  },
+  "AAB-4360": {
+    "title": "Leidesdorff Street, San Francisco, California",
+    "date": "1875",
+    "years": [
+      1875,
+      1875
+    ],
+    "folder": "S.F. Streets-Leidesdorff.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009338~S0",
+    "width": 370,
+    "height": 400
+  },
+  "AAB-3136": {
+    "title": "California Street, corner of Leidesdorff",
+    "date": "ca. 1883",
+    "years": [
+      1882,
+      1884
+    ],
+    "folder": "S.F. Streets-California-1883.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008145~S0",
+    "width": 320,
+    "height": 400
+  },
+  "AAC-2567": {
+    "title": "Canadian Bank of Commerce at California and Leidesdorff Streets",
+    "date": "1906 Apr. 18",
+    "years": [
+      1906,
+      1906
+    ],
+    "folder": "S.F. Earthquakes-1906-Banks-Canadian Bank of Commerce.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1017456~S0",
+    "width": 295,
+    "height": 400
+  },
+  "AAB-3085": {
+    "title": "California Street between Sansome and Montgomery",
+    "date": "ca. 1920",
+    "years": [
+      1919,
+      1921
+    ],
+    "folder": "S.F. Streets-California-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008094~S0",
+    "width": 297,
+    "height": 400
+  }
+}

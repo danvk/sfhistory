@@ -1,0 +1,62 @@
+{
+  "AAB-3048": {
+    "title": "Cabrillo Street at 8th Avenue",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-Cabrillo.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008058~S0",
+    "width": 584,
+    "height": 400
+  },
+  "AAB-6051": {
+    "title": "Eighth Avenue at Cabrillo",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-8th Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010995~S0",
+    "width": 560,
+    "height": 400
+  },
+  "AAB-6052": {
+    "title": "Eighth Avenue at Cabrillo",
+    "date": "1927",
+    "years": [
+      1927,
+      1927
+    ],
+    "folder": "S.F. Streets-8th Avenue.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010996~S0",
+    "width": 563,
+    "height": 400
+  },
+  "AAB-1112": {
+    "title": "Golden Gate Church of Christ, Eighth Avenue and Cabrillo Street",
+    "date": "1946 Feb. 27",
+    "years": [
+      1946,
+      1946
+    ],
+    "folder": "S.F. Churches-Church of Christ-Golden Gate.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006161~S0",
+    "width": 651,
+    "height": 400
+  },
+  "AAB-1111": {
+    "title": "Golden Gate Church of Christ, Eighth Avenue and Cabrillo Street",
+    "date": "1964 Aug. 13",
+    "years": [
+      1964,
+      1964
+    ],
+    "folder": "S.F. Churches-Church of Christ-Golden Gate.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1006160~S0",
+    "width": 493,
+    "height": 400
+  }
+}

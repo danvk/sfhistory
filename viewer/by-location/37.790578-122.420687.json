@@ -1,0 +1,62 @@
+{
+  "AAB-3077": {
+    "title": "California Street at Polk",
+    "date": "1925",
+    "years": [
+      1925,
+      1925
+    ],
+    "folder": "S.F. Streets-California-1920's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008086~S0",
+    "width": 569,
+    "height": 400
+  },
+  "AAB-3127": {
+    "title": "California street east from Polk street ",
+    "date": "1944",
+    "years": [
+      1944,
+      1944
+    ],
+    "folder": "S.F. Streets-California-1940's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008136~S0",
+    "width": 504,
+    "height": 400
+  },
+  "AAB-3171": {
+    "title": "California Street at Polk, view west",
+    "date": "1957 Sept. 23",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Streets-California-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008179~S0",
+    "width": 499,
+    "height": 400
+  },
+  "AAB-3226": {
+    "title": "View east on California at Polk street",
+    "date": "1957 Sept. 23",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Streets-California-1950's.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008229~S0",
+    "width": 497,
+    "height": 400
+  },
+  "AAB-5036": {
+    "title": "Polk at California Street",
+    "date": "1957 Sept. 23",
+    "years": [
+      1957,
+      1957
+    ],
+    "folder": "S.F. Streets-Polk.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1009997~S0",
+    "width": 488,
+    "height": 400
+  }
+}

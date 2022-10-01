@@ -1,0 +1,26 @@
+{
+  "AAC-5957": {
+    "title": "300 Pennsylvania Street",
+    "date": "n.d.",
+    "years": [
+      1850,
+      1999
+    ],
+    "folder": "S.F. Residences-300 Pennsylvania.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020822~S0",
+    "width": 493,
+    "height": 400
+  },
+  "AAC-5956": {
+    "title": "300 Pennsylvania Street",
+    "date": "ca. 1880",
+    "years": [
+      1879,
+      1881
+    ],
+    "folder": "S.F. Residences-300 Pennsylvania.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1020821~S0",
+    "width": 494,
+    "height": 400
+  }
+}

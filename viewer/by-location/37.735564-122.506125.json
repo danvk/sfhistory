@@ -1,0 +1,26 @@
+{
+  "AAB-3923": {
+    "title": "Two men sitting in a car at Great Highway and Sloat Boulevard",
+    "date": "1923",
+    "years": [
+      1923,
+      1923
+    ],
+    "folder": "S.F. Streets-Great Highway.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008910~S0",
+    "width": 510,
+    "height": 400
+  },
+  "AAB-5451": {
+    "title": "Sloat Blvd. at Great Highway",
+    "date": "1926 Nov. 26",
+    "years": [
+      1926,
+      1926
+    ],
+    "folder": "S.F. Streets-Sloat Blvd.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010402~S0",
+    "width": 581,
+    "height": 400
+  }
+}

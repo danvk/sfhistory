@@ -1,0 +1,62 @@
+{
+  "AAB-3837": {
+    "title": "View facing southwest from Golden Gate Avenue and Webster Street",
+    "date": "1970 June",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Streets-Golden Gate Ave.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1008825~S0",
+    "width": 1053,
+    "height": 400
+  },
+  "AAB-5777": {
+    "title": "View north from Webster Street at Golden Gate Avenue",
+    "date": "1970 June",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Streets-Webster.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010722~S0",
+    "width": 651,
+    "height": 400
+  },
+  "AAB-5778": {
+    "title": "View northeast from Webster Street at Golden Gate Avenue",
+    "date": "1970 June",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Streets-Webster.",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1010723~S0",
+    "width": 586,
+    "height": 400
+  },
+  "AAC-1848": {
+    "title": "View of the Western Addition district from Golden Gate Avenue and Webster Street, looking east",
+    "date": "1970 June",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Districts-Western Addition (See also: Housing Projects).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1015717~S0",
+    "width": 504,
+    "height": 400
+  },
+  "AAC-1854": {
+    "title": "View of the Western Addition district from Golden Gate Avenue and Webster Street, looking southeast",
+    "date": "1970 June",
+    "years": [
+      1970,
+      1970
+    ],
+    "folder": "S.F. Districts-Western Addition (See also: Housing Projects).",
+    "library_url": "http://sflib1.sfpl.org:82/record=b1015723~S0",
+    "width": 854,
+    "height": 400
+  }
+}
